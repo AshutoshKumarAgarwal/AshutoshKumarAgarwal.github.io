@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand "><img alt="babajob" src="http://d14onc6l261h5g.cloudfront.net/pix/redesign/v-635591409433937446/bj_logo_header_cropped.png" class="bj-brand"/></a>
+
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+    <footer class="footer-main">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 footer-company-links footer-column">
+                    <h4>Jobs by City</h4>
+                    <ul>
+                        <li><a href="http://www.babajob.com/jobs-in-Bangalore">Jobs in Bangalore</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Mumbai">Jobs in Mumbai</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Delhi">Jobs in Delhi</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Patna">Jobs in Patna</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Kolkata">Jobs in Kolkata</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Hyderabad">Jobs in Hyderabad</a></li>
+                        <li><a href="http://www.babajob.com/jobs-in-Chennai">Jobs in Chennai</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3  footer-additional-links footer-column">
+                    <h4>Jobs by Category</h4>
+                    <ul>
+                        <li><a href="http://www.babajob.com/jobs-Sales">Marketing Jobs</a></li>
+                        <li><a href="http://www.babajob.com/jobs-Data">Data Entry Jobs</a></li>
+                        <li><a href="http://www.babajob.com/jobs-BPO">Call Center Jobs</a></li>
+                        <li><a href="http://www.babajob.com/jobs-Delivery">Logistics Jobs</a></li>
+                        <li><a href="http://www.babajob.com/jobs-Driver">Driver Jobs</a></li>
+                        <li><a href="http://www.babajob.com/jobs-Receptionist">Front Office Jobs</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-additional-links footer-column">
+                    <h4>Hire by City</h4>
+                    <ul>
+                        <li><a href="http://www.babajob.com/Hire-in-Bangalore">Hire in Bangalore</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Mumbai">Hire in Mumbai</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Delhi">Hire in Delhi</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Patna">Hire in Patna</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Kolkata">Hire in Kolkata</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Hyderabad">Hire in Hyderabad</a></li>
+                        <li><a href="http://www.babajob.com/Hire-in-Chennai">Hire in Chennai</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-additional-links footer-column">
+                    <h4>Hire by Category</h4>
+                    <ul>
+                        <li><a href="http://www.babajob.com/Hire-Sales">Hire Marketing</a></li>
+                        <li><a href="http://www.babajob.com/Hire-Data">Hire Data Entry</a></li>
+                        <li><a href="http://www.babajob.com/Hire-BPO">Hire Call Center</a></li>
+                        <li><a href="http://www.babajob.com/Hire-Delivery">Hire Logistics</a></li>
+                        <li><a href="http://www.babajob.com/Hire-Driver">Hire a Driver</a></li>
+                        <li><a href="http://www.babajob.com/Hire-Receptionist">Hire a Receptionist</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3 footer-company-links footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/Start">Home</a></li>
+                        <li><a href="/AboutUs.aspx">About us</a></li>
+                        <li><a href="/Team.aspx">Team</a></li>
+                        <li><a href="/teambj">Team Blog</a></li>
+                        <li><a href="/press">Press</a></li>
+                        <li><a href="/hireme.aspx">Jobs at Babajob</a></li>
+                        <li><a href="/ContactUs.aspx">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-additional-links footer-column">
+                    <h4>Additional Links</h4>
+                    <ul>
+                        <li><a href="/Employer_Resources">Employer Resources</a></li>
+                        <li><a href="/jobs">Search Jobs </a></li>
+                        <li><a href="/hire">Search Candidates</a></li>
+                        <li><a href="/schools.aspx">Schools &amp; Training Institutes</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 footer-contact-social footer-column">
+                    <h3>Have a question, suggestion or bug for us?</h3>
+                    <p>Mail <a href="mailto:support@babajob.com">support@babajob.com </a>or <br />Call <a href="teL:+91-888-0466-111">+91 888-0006-666 </a></p>
+                    <img src="http://d14onc6l261h5g.cloudfront.net/pix/v-635591409426887432/bj-logo.png" alt="Babajob" class="footer-logo">
+                    <div class="footer-social-icons">
+                        <a href="http://www.facebook.com/babajob"><img src="http://d14onc6l261h5g.cloudfront.net/pix/v-635591409428327304/facebook-logo-c@2x.png" alt=""></a>
+                        <a href="http://www.twitter.com/babajob"><img src="http://d14onc6l261h5g.cloudfront.net/pix/v-635591409435207438/twitter-logo-c@2x.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 footer-company-links footer-column">
+                    <h4>Partners</h4>
+                    <div class="clearfix">
+                        <ul>
+                            <li class="partner-link-start"><a target="_blank" href="http://www.bdjobs.com">Bdjobs (Bangladesh)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.brightermonday.com">Brightermonday (East Africa)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.catho.com.br">Catho (Brazil)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.jobberman.com">Jobberman (West Africa)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.jobsdb.com">jobsDB (S.E. Asia)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.jobstreet.com">Jobstreet (S.E. Asia)</a></li>
+                            <li class="partner-link"><a target="_blank" href="https://www.jora.com">Jora (Worldwide)</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix">
+                        <ul>
+                            <li class="partner-link-start"><a target="_blank" href="http://www.manager.com.br">Manager (Brazil)</a></li>
+                            <li class="partner-link"><a target="_blank" href="https://www.occ.com.mx">OCC Mundial (Mexico)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.seek.com.au">SEEK (Australia)</a></li>
+                            <li class="partner-link"><a target="_blank" href="http://www.zhaopin.com">Zhaopin (China)</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix">
+                        <ul>
+                            <li class="partner-link-start"><a target="_blank" href="http://in.jora.com">Jora (India)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-subtext">
+                <div class="col-md-12">
+                    <small><a onclick=" $('#statusmessage').toggle(); ">&copy; 2015 </a> Babajob Services Pvt. Ltd. All Rights Reserved. Patent Pending.</small>
+                    <div id="statusmessage" style="display: none" class="testUI">
+                        Cookie<br />
+                        document.cookie<br />
+                        Status messages
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+10/19/2016, 7:11:46 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:11:46 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:11:46 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:14:20 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:14:20 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:14:20 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:17:21 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:17:21 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:17:21 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:50:29 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/19/2016, 7:50:29 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/19/2016, 7:51:46 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/20/2016, 1:18:09 AM - error: Rabbitmq errorError: read ETIMEDOUT
+10/20/2016, 1:18:09 AM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/20/2016, 1:18:11 AM - error: uncaughtException: connection timeout date=Thu Oct 20 2016 01:18:11 GMT+0530 (IST), pid=58504, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-post-node, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-post-node/src/app.js], rss=10293248, heapTotal=40919040, heapUsed=31894880, loadavg=[3.10205078125, 2.775390625, 2.76416015625], uptime=188212, trace=[column=17, file=/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js, function=.<anonymous>, line=168, method=null, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=emit, line=191, method=null, native=false, column=14, file=/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/db.js, function=listener, line=1791, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=14, file=/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/server.js, function=.<anonymous>, line=270, method=null, native=false, column=16, file=events.js, function=g, line=286, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/topologies/server.js, function=.<anonymous>, line=322, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/connection/pool.js, function=.<anonymous>, line=260, method=null, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=emit, line=191, method=null, native=false], stack=[Error: connection timeout,     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17),     at emitTwo (events.js:106:13),     at emit (events.js:191:7),     at listener (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/db.js:1791:14),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/server.js:270:14),     at g (events.js:286:16),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/topologies/server.js:322:12),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/connection/pool.js:260:12),     at emitTwo (events.js:106:13),     at emit (events.js:191:7)]
+10/20/2016, 1:18:11 AM - error: Error: connection timeout
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at listener (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:286:16)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mongodb-core/lib/connection/pool.js:260:12)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)

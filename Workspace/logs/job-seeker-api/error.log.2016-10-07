@@ -1,0 +1,140 @@
+10/7/2016, 4:00:13 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:14 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:15 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:16 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:28:25 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:28:25 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:29:05 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:29:05 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:29:19 PM - error: uncaughtException: listen EADDRINUSE :::9010 date=Fri Oct 07 2016 16:29:19 GMT+0530 (IST), pid=12832, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=74379264, heapTotal=68210688, heapUsed=39698752, loadavg=[2.68701171875, 2.8349609375, 2.99365234375], uptime=368242, trace=[column=11, file=util.js, function=Object.exports._errnoException, line=1007, method=exports._errnoException, native=false, column=20, file=util.js, function=exports._exceptionWithHostPort, line=1030, method=_exceptionWithHostPort, native=false, column=14, file=net.js, function=Server._listen2, line=1253, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1289, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1385, method=listen, native=false, column=24, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js, function=EventEmitter.listen, line=617, method=listen, native=false, column=5, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js, function=, line=50, method=null, native=false, column=32, file=module.js, function=Module._compile, line=541, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=10, file=module.js, function=Function.Module.runMain, line=575, method=Module.runMain, native=false, column=18, file=node.js, function=startup, line=160, method=null, native=false, column=3, file=node.js, function=null, line=456, method=null, native=false], stack=[Error: listen EADDRINUSE :::9010,     at Object.exports._errnoException (util.js:1007:11),     at exports._exceptionWithHostPort (util.js:1030:20),     at Server._listen2 (net.js:1253:14),     at listen (net.js:1289:10),     at Server.listen (net.js:1385:5),     at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24),     at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5),     at Module._compile (module.js:541:32),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Function.Module.runMain (module.js:575:10),     at startup (node.js:160:18),     at node.js:456:3]
+10/7/2016, 4:29:19 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:30:19 PM - error: uncaughtException: listen EADDRINUSE :::9010 date=Fri Oct 07 2016 16:30:19 GMT+0530 (IST), pid=12940, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=73850880, heapTotal=68210688, heapUsed=39698296, loadavg=[2.24755859375, 2.66845703125, 2.91748046875], uptime=368302, trace=[column=11, file=util.js, function=Object.exports._errnoException, line=1007, method=exports._errnoException, native=false, column=20, file=util.js, function=exports._exceptionWithHostPort, line=1030, method=_exceptionWithHostPort, native=false, column=14, file=net.js, function=Server._listen2, line=1253, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1289, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1385, method=listen, native=false, column=24, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js, function=EventEmitter.listen, line=617, method=listen, native=false, column=5, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js, function=, line=50, method=null, native=false, column=32, file=module.js, function=Module._compile, line=541, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=10, file=module.js, function=Function.Module.runMain, line=575, method=Module.runMain, native=false, column=18, file=node.js, function=startup, line=160, method=null, native=false, column=3, file=node.js, function=null, line=456, method=null, native=false], stack=[Error: listen EADDRINUSE :::9010,     at Object.exports._errnoException (util.js:1007:11),     at exports._exceptionWithHostPort (util.js:1030:20),     at Server._listen2 (net.js:1253:14),     at listen (net.js:1289:10),     at Server.listen (net.js:1385:5),     at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24),     at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5),     at Module._compile (module.js:541:32),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Function.Module.runMain (module.js:575:10),     at startup (node.js:160:18),     at node.js:456:3]
+10/7/2016, 4:30:19 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:30:21 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:31:37 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:32:13 PM - error: uncaughtException: listen EADDRINUSE :::9010 date=Fri Oct 07 2016 16:32:13 GMT+0530 (IST), pid=13152, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=74002432, heapTotal=68210688, heapUsed=39700872, loadavg=[2.57177734375, 2.73974609375, 2.91455078125], uptime=368416, trace=[column=11, file=util.js, function=Object.exports._errnoException, line=1007, method=exports._errnoException, native=false, column=20, file=util.js, function=exports._exceptionWithHostPort, line=1030, method=_exceptionWithHostPort, native=false, column=14, file=net.js, function=Server._listen2, line=1253, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1289, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1385, method=listen, native=false, column=24, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js, function=EventEmitter.listen, line=617, method=listen, native=false, column=5, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js, function=, line=50, method=null, native=false, column=32, file=module.js, function=Module._compile, line=541, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=10, file=module.js, function=Function.Module.runMain, line=575, method=Module.runMain, native=false, column=18, file=node.js, function=startup, line=160, method=null, native=false, column=3, file=node.js, function=null, line=456, method=null, native=false], stack=[Error: listen EADDRINUSE :::9010,     at Object.exports._errnoException (util.js:1007:11),     at exports._exceptionWithHostPort (util.js:1030:20),     at Server._listen2 (net.js:1253:14),     at listen (net.js:1289:10),     at Server.listen (net.js:1385:5),     at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24),     at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5),     at Module._compile (module.js:541:32),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Function.Module.runMain (module.js:575:10),     at startup (node.js:160:18),     at node.js:456:3]
+10/7/2016, 4:32:13 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:32:53 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:33:09 PM - error: uncaughtException: listen EADDRINUSE :::9010 date=Fri Oct 07 2016 16:33:09 GMT+0530 (IST), pid=13250, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=74297344, heapTotal=68210688, heapUsed=39700648, loadavg=[3.4228515625, 2.9365234375, 2.9736328125], uptime=368472, trace=[column=11, file=util.js, function=Object.exports._errnoException, line=1007, method=exports._errnoException, native=false, column=20, file=util.js, function=exports._exceptionWithHostPort, line=1030, method=_exceptionWithHostPort, native=false, column=14, file=net.js, function=Server._listen2, line=1253, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1289, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1385, method=listen, native=false, column=24, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js, function=EventEmitter.listen, line=617, method=listen, native=false, column=5, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js, function=, line=50, method=null, native=false, column=32, file=module.js, function=Module._compile, line=541, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=10, file=module.js, function=Function.Module.runMain, line=575, method=Module.runMain, native=false, column=18, file=node.js, function=startup, line=160, method=null, native=false, column=3, file=node.js, function=null, line=456, method=null, native=false], stack=[Error: listen EADDRINUSE :::9010,     at Object.exports._errnoException (util.js:1007:11),     at exports._exceptionWithHostPort (util.js:1030:20),     at Server._listen2 (net.js:1253:14),     at listen (net.js:1289:10),     at Server.listen (net.js:1385:5),     at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24),     at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5),     at Module._compile (module.js:541:32),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Function.Module.runMain (module.js:575:10),     at startup (node.js:160:18),     at node.js:456:3]
+10/7/2016, 4:33:09 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:34:10 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:49:56 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:49:56 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:50:26 PM - error: uncaughtException: connection 0 to localhost:27017 timed out date=Fri Oct 07 2016 16:50:26 GMT+0530 (IST), pid=15134, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=24047616, heapTotal=69259264, heapUsed=41296944, loadavg=[3.20849609375, 3.2119140625, 3.0517578125], uptime=369509, trace=[column=11, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/error.js, function=Function.MongoError.create, line=29, method=MongoError.create, native=false, column=20, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/connection.js, function=, line=173, method=null, native=false, column=16, file=events.js, function=Socket.g, line=286, method=g, native=false, column=13, file=events.js, function=emitNone, line=86, method=null, native=false, column=7, file=events.js, function=Socket.emit, line=185, method=emit, native=false, column=8, file=net.js, function=Socket._onTimeout, line=333, method=_onTimeout, native=false, column=11, file=timers.js, function=tryOnTimeout, line=224, method=null, native=false, column=5, file=timers.js, function=Timer.listOnTimeout, line=198, method=listOnTimeout, native=false], stack=[MongoError: connection 0 to localhost:27017 timed out,     at Function.MongoError.create (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/error.js:29:11),     at Socket.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/connection.js:173:20),     at Socket.g (events.js:286:16),     at emitNone (events.js:86:13),     at Socket.emit (events.js:185:7),     at Socket._onTimeout (net.js:333:8),     at tryOnTimeout (timers.js:224:11),     at Timer.listOnTimeout (timers.js:198:5)]

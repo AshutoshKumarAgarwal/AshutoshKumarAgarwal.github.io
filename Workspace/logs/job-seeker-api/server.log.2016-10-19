@@ -1,0 +1,10 @@
+10/19/2016, 4:12:07 PM - info: localhost:9010  "GET /jobseekers/57f73cde5cc101607a49cb89/applications" took 5ms and returned 401
+10/19/2016, 4:12:44 PM - info: localhost:9010  "GET /jobseekers/57f73cde5cc101607a49cb89/applications" took 121ms and returned 405
+10/19/2016, 4:13:32 PM - info: localhost:9010  "GET /jobseekers/57f73cde5cc101607a49cb89/1000/unansweredquestions" took 78ms and returned 404
+10/19/2016, 4:14:41 PM - info: localhost:9010  "POST /jobseekers" took 54ms and returned 500
+10/19/2016, 4:14:59 PM - info: localhost:9010  "POST /jobSeekers" took 7ms and returned 500
+10/19/2016, 4:16:57 PM - info: localhost:9010  "GET /jobseekers/58074ee0e10743268790b228/1000/unansweredquestions" took 62ms and returned 200
+10/19/2016, 5:00:49 PM - info: localhost:9010  "GET /jobseekers/58074ee0e10743268790b228/unansweredquestions" took 76ms and returned 500
+10/19/2016, 5:02:01 PM - info: localhost:9010  "GET /jobseekers/58074ee0e10743268790b228/unansweredquestions" took 184ms and returned 500
+10/19/2016, 5:04:42 PM - info: localhost:9010  "GET /jobseekers/58074ee0e10743268790b228/unansweredquestions?language=en&channel=web" took 47365ms and returned 500
+10/19/2016, 5:55:47 PM - info: localhost:9010  "GET /jobseekers/58074ee0e10743268790b228/unansweredquestions?language=en&channel=web" took 71777ms and returned 500

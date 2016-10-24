@@ -1,0 +1,355 @@
+10/24/2016, 6:45:12 AM - error: Rabbitmq errorError: read ETIMEDOUT
+10/24/2016, 6:45:12 AM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/24/2016, 6:45:13 AM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:55276)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 6:45:15 AM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:55282)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 6:45:16 AM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:55284)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 6:45:17 AM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:55290)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 12:50:14 PM - error:  statusCode=500, message=Something bad happened
+10/24/2016, 12:50:21 PM - error:  statusCode=500, message=Something bad happened
+10/24/2016, 12:50:26 PM - error:  statusCode=500, message=Something bad happened
+10/24/2016, 11:57:56 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/24/2016, 11:57:56 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/24/2016, 11:57:57 PM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:58170)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 11:57:58 PM - error:  Error: connect ENETUNREACH 10.150.4.232:5672 - Local (0.0.0.0:58172)
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at connect (net.js:873:16)
+    at net.js:963:9
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/24/2016, 11:57:59 PM - error: uncaughtException: connection timeout date=Mon Oct 24 2016 23:57:59 GMT+0530 (IST), pid=80758, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=11329536, heapTotal=41967616, heapUsed=35311712, loadavg=[4.33642578125, 3.6279296875, 3.38427734375], uptime=370635, trace=[column=17, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js, function=.<anonymous>, line=168, method=null, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=emit, line=191, method=null, native=false, column=14, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/db.js, function=listener, line=1791, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=14, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/server.js, function=.<anonymous>, line=270, method=null, native=false, column=16, file=events.js, function=g, line=286, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/topologies/server.js, function=.<anonymous>, line=322, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=emit, line=188, method=null, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/pool.js, function=.<anonymous>, line=260, method=null, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=emit, line=191, method=null, native=false], stack=[Error: connection timeout,     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17),     at emitTwo (events.js:106:13),     at emit (events.js:191:7),     at listener (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/db.js:1791:14),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/server.js:270:14),     at g (events.js:286:16),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/topologies/server.js:322:12),     at emitOne (events.js:96:13),     at emit (events.js:188:7),     at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/pool.js:260:12),     at emitTwo (events.js:106:13),     at emit (events.js:191:7)]
+10/24/2016, 11:57:59 PM - error: Error: connection timeout
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at listener (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:286:16)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/pool.js:260:12)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+10/25/2016, 12:16:57 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 1:00:21 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:05:45 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:05:49 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:09:13 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:09:15 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:18:19 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:18:24 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:19:53 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:19:55 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:21:20 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:21:28 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:23:37 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:23:42 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:25:57 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:25:57 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:26:02 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:27:42 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:27:45 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:31:28 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:31:42 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:31:44 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:35:53 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:35:57 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:37:47 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:37:49 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:40:20 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:40:25 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:44:03 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:44:11 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:46:56 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:47:02 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:49:13 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:49:16 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:50:15 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+
+10/25/2016, 2:50:16 AM - error:  statusCode=502, message=<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+

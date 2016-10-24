@@ -1,0 +1,221 @@
+10/7/2016, 4:00:12 PM - info: Connecting to MongoDB
+10/7/2016, 4:00:12 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:00:12 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:00:12 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:00:13 PM - info: Express server listening on port 9010
+10/7/2016, 4:00:13 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:13 PM - info: MongoDB Connected!
+10/7/2016, 4:00:14 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:00:14 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:15 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:00:15 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:00:16 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:00:16 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:28:25 PM - info: Connecting to MongoDB
+10/7/2016, 4:28:25 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:28:25 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:28:25 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:28:25 PM - info: Express server listening on port 9010
+10/7/2016, 4:28:25 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:28:25 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:28:25 PM - info: MongoDB Connected!
+10/7/2016, 4:28:46 PM - info: Received SIGINT
+10/7/2016, 4:29:05 PM - info: Connecting to MongoDB
+10/7/2016, 4:29:05 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:29:05 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:29:05 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:29:05 PM - info: Express server listening on port 9010
+10/7/2016, 4:29:05 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:29:05 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:29:05 PM - info: MongoDB Connected!
+10/7/2016, 4:29:19 PM - info: Connecting to MongoDB
+10/7/2016, 4:29:19 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:29:19 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:29:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:29:19 PM - info: In Uncaught exception: 
+10/7/2016, 4:29:19 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:29:19 PM - info: Cleanup called
+10/7/2016, 4:29:19 PM - info: MongoDB cleanup called
+10/7/2016, 4:29:19 PM - info: Rabbitmq cleanup called
+10/7/2016, 4:30:18 PM - info: Connecting to MongoDB
+10/7/2016, 4:30:18 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:30:18 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:30:18 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:30:19 PM - info: In Uncaught exception: 
+10/7/2016, 4:30:19 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:30:19 PM - info: Cleanup called
+10/7/2016, 4:30:19 PM - info: MongoDB cleanup called
+10/7/2016, 4:30:19 PM - info: Rabbitmq cleanup called
+10/7/2016, 4:30:21 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:30:22 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:31:37 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:31:38 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:32:13 PM - info: Connecting to MongoDB
+10/7/2016, 4:32:13 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:32:13 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:32:13 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:32:13 PM - info: In Uncaught exception: 
+10/7/2016, 4:32:13 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:32:13 PM - info: Cleanup called
+10/7/2016, 4:32:13 PM - info: MongoDB cleanup called
+10/7/2016, 4:32:13 PM - info: Rabbitmq cleanup called
+10/7/2016, 4:32:53 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:32:54 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:33:08 PM - info: Connecting to MongoDB
+10/7/2016, 4:33:08 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:33:08 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:33:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:33:09 PM - info: In Uncaught exception: 
+10/7/2016, 4:33:09 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:50:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/7/2016, 4:33:09 PM - info: Cleanup called
+10/7/2016, 4:33:09 PM - info: MongoDB cleanup called
+10/7/2016, 4:33:09 PM - info: Rabbitmq cleanup called
+10/7/2016, 4:33:09 PM - info: Process exiting: 1
+10/7/2016, 4:34:10 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:41:06 PM - info: Connecting to MongoDB
+10/7/2016, 4:41:06 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:41:06 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:41:06 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:41:06 PM - info: Express server listening on port 9010
+10/7/2016, 4:41:36 PM - info: In Uncaught exception: 
+10/7/2016, 4:45:01 PM - info: Connecting to MongoDB
+10/7/2016, 4:45:01 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:45:01 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:45:01 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:45:02 PM - info: Express server listening on port 9010
+10/7/2016, 4:45:21 PM - info: Received SIGINT
+10/7/2016, 4:45:21 PM - info: Cleanup called
+10/7/2016, 4:45:21 PM - info: MongoDB cleanup called
+10/7/2016, 4:45:21 PM - info: Rabbitmq cleanup called
+10/7/2016, 4:45:32 PM - info: In Uncaught exception: 
+10/7/2016, 4:45:45 PM - info: Connecting to MongoDB
+10/7/2016, 4:45:45 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:45:45 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:45:45 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:45:45 PM - info: Express server listening on port 9010
+10/7/2016, 4:46:15 PM - info: In Uncaught exception: 
+10/7/2016, 4:49:56 PM - info: Connecting to MongoDB
+10/7/2016, 4:49:56 PM - info: Connecting to RabbitMQ
+10/7/2016, 4:49:56 PM - info: getBasicAttributes in attributeservice  called 
+10/7/2016, 4:49:56 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/7/2016, 4:49:56 PM - info: Express server listening on port 9010
+10/7/2016, 4:49:56 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/7/2016, 4:49:56 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/7/2016, 4:50:26 PM - info: In Uncaught exception: 

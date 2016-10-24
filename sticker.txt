@@ -1,0 +1,45 @@
+<div class="footer" id="banner" style="
+                padding: 5px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                /* padding-top: 15px; */
+                padding-bottom: 15px;
+                border-top: 1px solid #ccc;
+                box-shadow: 2px 2px #777;
+                background-color: #eee;
+                text-align:center;
+                ">
+            <div style="float:right;border: none;">
+
+                
+                    <button style="/* position:absolute; */ /* right:10px; */ /* top : -20px; */border: none;background-color: #eee;" id="hide">×</button>
+             
+                </div>
+
+            <div class="row" style="
+    margin-left: 0;
+">
+               
+                    <div style="
+    float: left;
+    word-wrap: break-word;
+    font-size: 15px;
+    /* margin-left: 0; */
+    width: 238px;
+"> Get access to India's top employers
+Faster and smoother experience
+</div>
+                  
+                    
+                        <button class="btn btn-warning btn-sm" style="
+                margin-left: 10px;
+                float: left;
+">
+                            INSTALL APP
+                        </button>
+                   
+                </div>
+                
+
+            </div>

@@ -1,0 +1,59 @@
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<ienumerable<WebApplication4.Models.shubham>>" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Index</title>
+</head>
+<body bgcolor="#ff9999">
+<h2 style="background-color: #FF8080">manish application</h2>
+    <div style="background-color: #CC3399">
+    <table>
+    <tr>
+        <th></th>
+        <th>
+           Email
+        </th>
+       <th>
+|            Passward
+        </th>
+        <th>
+            BitrhYear
+        </th>
+        <th>
+            INdZipCode
+        </th>
+        <th>
+           Gender
+        </th>
+    </tr>
+<% foreach(var Man in Model) { %>
+    <tr>
+        <td>
+          <%= Html.ActionLink("Details", "Details", Man)%>
+
+        </td>
+        <td>
+            <%= Html.Encode(Man.Email_Id) %>
+        </td>
+        <td>
+            <%= Html.Encode(Man.passward) %>
+        </td>
+        <td>
+            <%= Html.Encode(Man.BirthYear) %>
+        </td>
+        <td>
+            <%= Html.Encode(Man.IndianZipCode) %>
+        </td>
+        <td>
+            <%= Html.Encode(Man.Gender) %>
+        </td>
+    </tr>
+<% } %>
+</table>
+<p>
+    <%= Html.ActionLink("Login Now", "Create") %>
+</p>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,901 @@
+10/21/2016, 2:43:28 PM - info: Connecting to MongoDB
+10/21/2016, 2:43:28 PM - info: Connecting to RabbitMQ
+10/21/2016, 2:43:28 PM - info: getBasicAttributes in attributeservice  called 
+10/21/2016, 2:43:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:43:28 PM - info: Express server listening on port 9010
+10/21/2016, 2:43:28 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:43:29 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 2:43:29 PM - info: MongoDB Connected!
+10/21/2016, 2:43:29 PM - info: RabbitMQ connected
+10/21/2016, 2:43:37 PM - error: error on decoding token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJxYWFwaS5iYWJham9iLmNvbSIsImV4cCI6MTQ5MjQzNjEwNCwidG9rZW5JZCI6Ijk3YTU5YTk1ZDEyZjRiNzdhNzM4NjY1MjUzNmRiYTk5IiwidXNlcklkIjoiNDA5OTc5OSIsInVzZXJOYW1lIjoiYXNodXRvc2hhQGJhYmFqb2IuY29tIiwicm9sZSI6IkFETUlOIiwicHJvZmlsZUlkIjoiNDA5OTc5OSIsImNvbnN1bWVyS2V5IjoiMmtzUngzZTZUTElOUEtXOGRlM1VmMURjMjg4ZHhTIiwic2NvcGUiOiJBQ0NFU1MifQ.6qYSMd4j9mJlFR60LJrCmrOisCfeSjqUdZqGOcIZrwU, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : /jobseekers/5809dbfffad90e1468ec7413/categories/1000/unansweredquestions?language=en&channel=web, err :  %s JsonWebTokenError: secret or public key must be provided
+    at Object.module.exports [as verify] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/jsonwebtoken/verify.js:54:17)
+    at Object.exports.authenticate.err [as authenticate] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/lib/requestAuthentication.js:31:25)
+    at app.use (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:33:27)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:271:10)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express-winston/index.js:291:9
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+10/21/2016, 2:44:01 PM - info: Received SIGINT
+10/21/2016, 2:44:01 PM - info: Cleanup called
+10/21/2016, 2:44:01 PM - info: MongoDB cleanup called
+10/21/2016, 2:44:01 PM - info: Rabbitmq cleanup called
+10/21/2016, 2:44:01 PM - info: MongoDB connection closed
+10/21/2016, 2:44:01 PM - info: RabbitMQ connection closed
+10/21/2016, 2:44:08 PM - info: Connecting to MongoDB
+10/21/2016, 2:44:08 PM - info: Connecting to RabbitMQ
+10/21/2016, 2:44:08 PM - info: getBasicAttributes in attributeservice  called 
+10/21/2016, 2:44:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:44:09 PM - info: Express server listening on port 9010
+10/21/2016, 2:44:10 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:44:10 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 2:44:10 PM - info: MongoDB Connected!
+10/21/2016, 2:44:10 PM - info: RabbitMQ connected
+10/21/2016, 2:44:15 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 2:44:16 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 2:44:16 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:44:16 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:44:16 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 2:44:41 PM - info: Received SIGINT
+10/21/2016, 2:44:41 PM - info: Cleanup called
+10/21/2016, 2:44:41 PM - info: MongoDB cleanup called
+10/21/2016, 2:44:41 PM - info: Rabbitmq cleanup called
+10/21/2016, 2:44:41 PM - info: MongoDB connection closed
+10/21/2016, 2:44:41 PM - info: RabbitMQ connection closed
+10/21/2016, 2:44:46 PM - info: Connecting to MongoDB
+10/21/2016, 2:44:46 PM - info: Connecting to RabbitMQ
+10/21/2016, 2:44:46 PM - info: getBasicAttributes in attributeservice  called 
+10/21/2016, 2:44:46 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:44:46 PM - info: Express server listening on port 9010
+10/21/2016, 2:44:47 PM - info: MongoDB Connected!
+10/21/2016, 2:44:47 PM - info: RabbitMQ connected
+10/21/2016, 2:44:51 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 2:44:52 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 2:44:52 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 2:44:52 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:44:52 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 2:44:52 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 2:44:52 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 2:44:52 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 2:45:18 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 2:45:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 2:45:18 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:45:18 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 2:45:18 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 2:45:18 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 2:45:18 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 2:45:52 PM - info: Received SIGINT
+10/21/2016, 2:45:52 PM - info: Cleanup called
+10/21/2016, 2:45:52 PM - info: MongoDB cleanup called
+10/21/2016, 2:45:52 PM - info: Rabbitmq cleanup called
+10/21/2016, 2:45:52 PM - info: MongoDB connection closed
+10/21/2016, 2:45:52 PM - info: RabbitMQ connection closed
+10/21/2016, 2:45:57 PM - info: Connecting to MongoDB
+10/21/2016, 2:45:57 PM - info: Connecting to RabbitMQ
+10/21/2016, 2:45:57 PM - info: getBasicAttributes in attributeservice  called 
+10/21/2016, 2:45:57 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:45:57 PM - info: Express server listening on port 9010
+10/21/2016, 2:45:58 PM - info: MongoDB Connected!
+10/21/2016, 2:45:58 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 2:45:58 PM - info: RabbitMQ connected
+10/21/2016, 2:46:01 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 2:46:01 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 2:46:01 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 2:46:01 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 2:46:01 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 2:46:01 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 2:46:01 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 3:09:58 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 3:09:58 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 3:09:58 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 3:09:58 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 3:09:58 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 3:09:58 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 3:09:58 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 3:12:05 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 3:12:05 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 3:12:05 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 3:12:09 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 3:12:09 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 3:12:09 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 3:12:09 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 3:12:51 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 3:12:51 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 3:12:51 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 3:12:51 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 3:12:51 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 3:12:51 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 3:12:51 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 4:00:26 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/21/2016, 4:00:26 PM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/21/2016, 4:00:26 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/21/2016, 4:00:26 PM - info: getIdArrayFromObjects in attribute service called
+10/21/2016, 4:00:26 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/21/2016, 4:00:26 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/21/2016, 4:00:26 PM - info: getQuestions in questionsservice  called 
+10/21/2016, 6:12:06 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/21/2016, 6:12:06 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/21/2016, 6:12:07 PM - info: Connecting to RabbitMQ
+10/21/2016, 6:13:23 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:13:24 PM - info: Connecting to RabbitMQ
+10/21/2016, 6:14:40 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:14:41 PM - info: Connecting to RabbitMQ
+10/21/2016, 6:15:57 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:15:58 PM - info: Connecting to RabbitMQ
+10/21/2016, 6:17:14 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/22/2016, 2:30:38 AM - info: Connecting to MongoDB
+10/22/2016, 2:30:39 AM - info: Connecting to RabbitMQ
+10/22/2016, 2:30:39 AM - info: getBasicAttributes in attributeservice  called 
+10/22/2016, 2:30:39 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:30:39 AM - info: Express server listening on port 9010
+10/22/2016, 2:30:39 AM - info: MongoDB Connected!
+10/22/2016, 2:30:39 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:30:39 AM - info: RabbitMQ connected
+10/22/2016, 2:30:50 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:30:50 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:30:50 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:30:51 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:30:51 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:30:51 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:30:51 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:32:22 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:32:22 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:32:22 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:32:22 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:32:22 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:32:22 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:32:22 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:32:24 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:32:24 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:32:24 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:32:24 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:32:24 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:32:24 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:32:24 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:25 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:25 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:25 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:25 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:25 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:25 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:25 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:26 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:26 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:26 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:26 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:26 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:26 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:26 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:29 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:29 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:29 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:29 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:29 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:29 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:29 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:30 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:30 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:30 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:31 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:31 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:31 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:31 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:33 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:33 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:33 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:33 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:33 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:33 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:33 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:34:34 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:34:34 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:34:34 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:34:34 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:34:34 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:34:34 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:34:34 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:36:03 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:36:03 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:36:03 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:36:03 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:36:03 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:36:03 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:36:03 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:36:04 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:36:05 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:36:05 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:36:05 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:36:05 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:36:05 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:36:05 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:05 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:05 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:05 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:06 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:06 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:06 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:06 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:15 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:15 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:15 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:15 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:15 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:15 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:15 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:16 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:16 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:16 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:17 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:17 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:17 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:17 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:38 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:38 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:38 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:38 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:38 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:38 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:38 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:40 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:40 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:40 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:40 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:40 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:40 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:40 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:42 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:42 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:42 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:42 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:42 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:42 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:42 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:43 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:43 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:43 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:43 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:43 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:43 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:43 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:50 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:50 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:50 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:50 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:50 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:50 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:50 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:37:52 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:37:52 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:37:52 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:37:52 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:37:52 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:37:52 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:37:52 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:40:05 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:40:05 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:40:05 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:40:05 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:40:05 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:40:05 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:40:05 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:40:07 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:40:07 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:40:07 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:40:07 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:40:07 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:40:07 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:40:07 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:49:20 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:49:20 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:49:20 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:49:20 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:49:20 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:49:20 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:49:20 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:49:22 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:49:22 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:49:22 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:49:22 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:49:22 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:49:22 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:49:22 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:49:26 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:49:26 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:49:26 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:49:27 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:49:27 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:49:27 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:49:27 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:49:28 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:49:28 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:49:28 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:49:29 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:49:29 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:49:29 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:49:29 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:50:03 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:50:03 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:50:03 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:50:03 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:50:03 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:50:03 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:50:03 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:50:05 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:50:05 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:50:05 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:50:05 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:50:05 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:50:05 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:50:05 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:53:44 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:53:44 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:53:44 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:53:44 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:53:44 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:53:44 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:53:44 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:53:46 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:53:46 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:53:46 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:53:46 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:53:46 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:53:46 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:53:46 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:53:48 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:53:48 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:53:48 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:53:48 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:53:48 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:53:48 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:53:48 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:53:52 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:53:52 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:53:52 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:53:52 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:53:52 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:53:52 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:53:52 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:54:29 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:54:29 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:54:29 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:54:30 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:54:30 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:54:30 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:54:30 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:54:32 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:54:32 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:54:32 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:54:32 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:54:32 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:54:32 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:54:32 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:54:39 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:54:39 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:54:39 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:54:39 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:54:39 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:54:39 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:54:39 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:54:41 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:54:41 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:54:41 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:54:41 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:54:41 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:54:41 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:54:41 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:55:27 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:55:27 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:55:27 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:55:27 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:55:27 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:55:27 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:55:27 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 2:55:28 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 2:55:28 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 2:55:28 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 2:55:28 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 2:55:28 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 2:55:28 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 2:55:28 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:04:41 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:04:41 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:04:41 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:04:41 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:04:41 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:04:41 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:04:41 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:04:43 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:04:43 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:04:43 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:04:43 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:04:43 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:04:43 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:04:43 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:05:31 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:05:31 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:05:31 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:05:31 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:05:31 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:05:31 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:05:31 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:05:33 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:05:33 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:05:33 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:05:33 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:05:33 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:05:33 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:05:33 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:06:11 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:06:11 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:06:11 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:06:11 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:06:11 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:06:11 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:06:11 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:06:13 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:06:13 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:06:13 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:06:13 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:06:13 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:06:13 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:06:13 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:06:17 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:06:17 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:06:17 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:06:17 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:06:17 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:06:17 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:06:17 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:06:18 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:06:18 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:06:18 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:06:19 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:06:19 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:06:19 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:06:19 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:07:51 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:07:51 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:07:51 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:07:51 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:07:51 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:07:51 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:07:51 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:07:52 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:07:53 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:07:53 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:07:53 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:07:53 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:07:53 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:07:53 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:08:32 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:08:32 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:08:33 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:08:33 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:08:33 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:08:33 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:08:33 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:08:34 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:08:34 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:08:34 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:08:34 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:08:34 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:08:34 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:08:34 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:09:11 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:09:11 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:09:11 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:09:11 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:09:11 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:09:11 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:09:11 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:09:12 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:09:12 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:09:12 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:09:12 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:09:12 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:09:12 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:09:12 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:11:06 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:11:06 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:11:06 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:11:06 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:11:06 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:11:06 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:11:06 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:11:08 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:11:08 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:11:08 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:11:08 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:11:08 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:11:08 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:11:08 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:12:29 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:12:29 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:12:29 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:12:29 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:12:29 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:12:29 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:12:29 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:12:31 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:12:31 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:12:31 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:12:31 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:12:31 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:12:31 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:12:31 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:13:07 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:13:07 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:13:07 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:13:07 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:13:07 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:13:07 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:13:07 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:13:09 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:13:09 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:13:09 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:13:09 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:13:09 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:13:09 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:13:09 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:13:34 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:13:34 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:13:34 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:13:34 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:13:34 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:13:34 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:13:34 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:13:36 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:13:36 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:13:36 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:13:36 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:13:36 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:13:36 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:13:36 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:14:20 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:14:20 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:14:20 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:14:20 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:14:20 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:14:20 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:14:20 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:14:22 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:14:22 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:14:22 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:14:22 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:14:22 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:14:22 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:14:22 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:15:59 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:15:59 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:15:59 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:15:59 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:15:59 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:15:59 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:15:59 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:16:00 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:16:00 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:16:00 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:16:00 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:16:00 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:16:00 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:16:00 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:16:50 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:16:50 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:16:50 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:16:50 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:16:50 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:16:50 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:16:50 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:16:52 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:16:52 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:16:52 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:16:52 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:16:52 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:16:52 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:16:52 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:17:39 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:17:39 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:17:39 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:17:39 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:17:39 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:17:39 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:17:39 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:17:41 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:17:41 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:17:41 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:17:41 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:17:41 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:17:41 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:17:41 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:20:54 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:20:54 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:20:54 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:20:55 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:20:55 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:20:55 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:20:55 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:21:01 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:21:01 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:21:01 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:21:01 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:21:01 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:21:01 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:21:01 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:21:34 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:21:35 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:21:35 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:21:35 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:21:35 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:21:35 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:21:35 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:21:37 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:21:37 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:21:37 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:21:37 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:21:37 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:21:37 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:21:37 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:24:47 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:24:48 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:24:48 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:24:48 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:24:48 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:24:48 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:24:48 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:24:49 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:24:49 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:24:49 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:24:49 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:24:49 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:24:49 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:24:49 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:26:25 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:26:25 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:26:25 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:26:25 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:26:25 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:26:25 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:26:25 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:26:27 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:26:27 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:26:27 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:26:27 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:26:27 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:26:27 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:26:27 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:27:28 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:27:28 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:27:28 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:27:28 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:27:28 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:27:28 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:27:28 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:27:30 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:27:30 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:27:30 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:27:30 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:27:30 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:27:30 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:27:30 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:38:25 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:38:25 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:38:25 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:38:25 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:38:25 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:38:25 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:38:25 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:38:52 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:38:52 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:38:52 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:38:52 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:38:52 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:38:52 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:38:52 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 3:48:00 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 3:48:00 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 3:48:00 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 3:48:00 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 3:48:00 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 3:48:00 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 3:48:00 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:14:52 AM - info: Connecting to MongoDB
+10/22/2016, 4:14:52 AM - info: Connecting to RabbitMQ
+10/22/2016, 4:14:52 AM - info: getBasicAttributes in attributeservice  called 
+10/22/2016, 4:14:52 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:14:52 AM - info: Express server listening on port 9010
+10/22/2016, 4:14:52 AM - info: MongoDB Connected!
+10/22/2016, 4:14:52 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:14:52 AM - info: RabbitMQ connected
+10/22/2016, 4:14:57 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:14:57 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:14:57 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:14:58 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:14:58 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:14:58 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:14:58 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:14:59 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:14:59 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:14:59 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:14:59 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:14:59 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:14:59 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:14:59 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:19:18 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:19:18 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:19:18 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:19:18 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:19:18 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:19:18 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:19:18 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:19:20 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:19:20 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:19:20 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:19:20 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:19:20 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:19:20 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:19:20 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:20:36 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:20:36 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:20:36 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:20:36 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:20:36 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:20:36 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:20:36 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:20:37 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:20:37 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:20:37 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:20:37 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:20:37 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:20:37 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:20:37 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:22:19 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:22:19 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:22:19 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:22:19 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:22:19 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:22:19 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:22:19 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:22:21 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:22:21 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:22:21 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:22:21 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:22:21 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:22:21 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:22:21 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:27:00 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:27:00 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:27:00 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:27:00 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:27:00 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:27:00 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:27:00 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:27:01 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:27:01 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:27:01 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:27:02 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:27:02 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:27:02 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:27:02 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:35:09 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:35:09 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:35:09 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:35:09 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:35:09 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:35:09 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:35:09 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:35:10 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:35:10 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:35:10 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:35:10 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:35:10 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:35:10 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:35:10 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:36:35 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:36:35 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:36:35 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:36:35 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:36:35 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:36:35 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:36:35 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:36:36 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:36:36 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:36:36 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:36:36 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:36:36 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:36:36 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:36:36 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:38:26 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:38:26 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:38:26 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:38:26 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:38:26 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:38:26 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:38:26 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:38:27 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:38:27 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:38:27 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:38:27 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:38:27 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:38:27 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:38:27 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:40:21 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:40:22 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:40:22 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:40:22 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:40:22 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:40:22 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:40:22 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:40:23 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:40:23 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:40:23 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:40:23 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:40:23 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:40:23 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:40:23 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:41:34 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:41:34 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:41:34 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:41:34 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:41:34 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:41:34 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:41:34 AM - info: getQuestions in questionsservice  called 
+10/22/2016, 4:41:36 AM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 5809dbfffad90e1468ec7413
+10/22/2016, 4:41:36 AM - info: getCategoryAttributeList in attribute service called for categoryId : 1000
+10/22/2016, 4:41:36 AM - info: callAttributeService in attribute service called for categoryId : 1000
+10/22/2016, 4:41:36 AM - info: getIdArrayFromObjects in attribute service called
+10/22/2016, 4:41:36 AM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/22/2016, 4:41:36 AM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/22/2016, 4:41:36 AM - info: getQuestions in questionsservice  called 

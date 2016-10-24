@@ -1,0 +1,4 @@
+Title,Realese Date,Genre,Price,Rating 
+devdas,1/11/1989,Romantic,7.99,PG
+dhoom,3/13/1984,Action,8.99,PG
+Andaj apna apna,2/23/1986,Comedy,9.99,PG

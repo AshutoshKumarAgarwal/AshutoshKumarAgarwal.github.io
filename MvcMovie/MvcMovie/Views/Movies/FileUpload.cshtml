@@ -1,0 +1,55 @@
+﻿@using FileUpload = Microsoft.Web.Helpers.FileUpload
+@{
+    ViewBag.Title = "FileUpload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    string[] matchExtension = { ".csv", ".xml", ".txt" };
+    var fileName = "";
+    bool upload = false;
+    bool format = true;
+    if (IsPost)
+    {
+        var fileSavePath = "";
+        var uploadedFile = Request.Files[0];
+        fileName = Path.GetFileName(uploadedFile.FileName);
+        string fileExtension = System.IO.Path.GetExtension(fileName);
+        //if (matchExtension.Contains(fileExtension))
+        //{
+        fileSavePath = Server.MapPath("~/App_Data/uploads/" + fileName);
+        uploadedFile.SaveAs(fileSavePath);
+        upload = true;
+        //}
+        //else
+        //{
+        //    format = false;
+        //}
+}
+}
+
+<h3>@ViewBag.Message</h3>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FileUpload - Single-File Example</title>
+</head>
+<body>
+    @FileUpload.GetHtml(
+        initialNumberOfFiles: 1,
+        allowMoreFilesToBeAdded: false,
+        includeFormTag: true,
+        uploadText: "Upload")
+    @if (upload)
+    {
+        <span>File uploaded!</span><br />
+    }
+    @if (!format)
+    {
+        <span>Choose .xml/.csv file only </span><br />
+    }
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+candidate1,27,male,bangalore,karnataka,560007,,10,Failed,3,driver

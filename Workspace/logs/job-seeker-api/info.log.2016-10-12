@@ -1,0 +1,2021 @@
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:02 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:02 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:02 PM - info: Save to DB called
+10/12/2016, 12:21:02 PM - info: saveToDB:16.79185599999994
+10/12/2016, 12:21:02 PM - info: Save to DB called
+10/12/2016, 12:21:02 PM - info: saveToDB:2.197023999999942
+10/12/2016, 12:21:02 PM - info: Save to DB called
+10/12/2016, 12:21:02 PM - info: saveToDB:2.9680290000000014
+10/12/2016, 12:21:02 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 12:21:02 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 12:21:02 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:02 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:02 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:02 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:02 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 12:21:02 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 12:21:02 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 12:21:02 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 12:21:02 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:02 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:02 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:02 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:02 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:02 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:02 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 12:21:02 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 12:21:02 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 12:21:02 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 12:21:02 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:02 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:02 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:02 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:02 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:02 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 12:21:02 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 12:21:02 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:02 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:02 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:02 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:02 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:02 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:02 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:02 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:02 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 12:21:02 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:02 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 12:21:02 PM - info: registerUser:2.7231899999999314
+10/12/2016, 12:21:02 PM - info: registerUser:0.9672640000001138
+10/12/2016, 12:21:02 PM - info: registerUser:1.6197049999998399
+10/12/2016, 12:21:02 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 12:21:02 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:31 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:31 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:31 PM - info: Save to DB called
+10/12/2016, 12:21:31 PM - info: saveToDB:18.865370999999982
+10/12/2016, 12:21:31 PM - info: Save to DB called
+10/12/2016, 12:21:31 PM - info: saveToDB:2.2768570000000636
+10/12/2016, 12:21:31 PM - info: Save to DB called
+10/12/2016, 12:21:31 PM - info: saveToDB:7.0523880000000645
+10/12/2016, 12:21:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 12:21:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 12:21:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:31 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:31 PM - info: getAttributes in attribute service called 
+10/12/2016, 12:21:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 12:21:31 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 12:21:31 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 12:21:31 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 12:21:31 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 12:21:31 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:31 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:31 PM - info: create in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 12:21:31 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:31 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:31 PM - info: update in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/12/2016, 12:21:31 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: getApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 12:21:31 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 12:21:31 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 12:21:31 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 12:21:31 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:31 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 12:21:31 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:31 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 12:21:31 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:31 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 12:21:31 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 12:21:31 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 12:21:31 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 12:21:31 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: inSave in jobseekerservice called 
+10/12/2016, 12:21:31 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 12:21:31 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 12:21:31 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:31 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 12:21:31 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:31 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:31 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 12:21:31 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 12:21:31 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 12:21:31 PM - info: registerUser:1.1033390000000054
+10/12/2016, 12:21:31 PM - info: registerUser:1.2548649999998815
+10/12/2016, 12:21:31 PM - info: registerUser:1.4058159999999589
+10/12/2016, 12:21:31 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 12:21:31 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:45:35 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:45:35 PM - info: Save to DB called
+10/12/2016, 4:45:35 PM - info: saveToDB:13.473787999999331
+10/12/2016, 4:45:35 PM - info: Save to DB called
+10/12/2016, 4:45:35 PM - info: saveToDB:5.672324000001026
+10/12/2016, 4:45:35 PM - info: Save to DB called
+10/12/2016, 4:45:35 PM - info: saveToDB:9.730875999999625
+10/12/2016, 4:45:36 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:45:36 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:45:36 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:45:36 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:45:36 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:45:37 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:45:37 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:45:37 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:45:37 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:45:37 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:45:37 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:45:37 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:45:37 PM - info: create in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:45:37 PM - info: create in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:45:37 PM - info: create in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:45:37 PM - info: update in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:45:37 PM - info: update in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:45:37 PM - info: update in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:45:37 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:45:37 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:45:37 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:45:37 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:45:37 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:45:37 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:45:37 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:45:37 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:45:37 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:37 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:37 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:45:37 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:37 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:37 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:37 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:37 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:37 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:45:37 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:45:37 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:37 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:45:37 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:37 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:37 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:38 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:38 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:38 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:45:38 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:45:38 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:45:38 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:45:38 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:45:38 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:45:38 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:45:38 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:45:38 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:45:38 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:45:38 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:45:39 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:45:39 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:45:39 PM - info: registerUser:0.4741830000002665
+10/12/2016, 4:45:39 PM - info: registerUser:0.5076480000006995
+10/12/2016, 4:45:39 PM - info: registerUser:0.6210969999992813
+10/12/2016, 4:45:39 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:45:39 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:30 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:46:31 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:46:31 PM - info: Save to DB called
+10/12/2016, 4:46:31 PM - info: saveToDB:11.159659000000829
+10/12/2016, 4:46:31 PM - info: Save to DB called
+10/12/2016, 4:46:31 PM - info: saveToDB:5.5260419999995065
+10/12/2016, 4:46:31 PM - info: Save to DB called
+10/12/2016, 4:46:31 PM - info: saveToDB:8.476811999998972
+10/12/2016, 4:46:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:46:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:46:31 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:46:31 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:46:31 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:46:31 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:46:32 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:46:32 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:46:32 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:46:32 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:46:32 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:46:32 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:46:32 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:46:32 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:46:32 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:46:32 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:46:32 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:46:32 PM - info: create in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:46:32 PM - info: create in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:46:32 PM - info: create in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:46:32 PM - info: update in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:46:32 PM - info: update in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:46:32 PM - info: update in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:46:32 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:46:32 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:46:32 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:46:32 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:46:32 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:46:32 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:46:32 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:46:32 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:46:32 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:46:32 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:46:32 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:32 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:32 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:46:32 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:32 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:32 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:46:32 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:46:32 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:46:32 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:46:32 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:46:33 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:33 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:33 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:46:33 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:46:33 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:46:33 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:33 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:33 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:33 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:33 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:46:33 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:46:33 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:46:33 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:46:33 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:46:33 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:46:33 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:46:33 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:46:33 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:46:33 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:46:33 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:46:33 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:46:34 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:46:34 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:46:34 PM - info: registerUser:0.5423030000001745
+10/12/2016, 4:46:34 PM - info: registerUser:0.9242249999988417
+10/12/2016, 4:46:34 PM - info: registerUser:0.5699279999989812
+10/12/2016, 4:46:34 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:46:35 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:49:07 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:49:07 PM - info: Save to DB called
+10/12/2016, 4:49:07 PM - info: saveToDB:16.136528999999996
+10/12/2016, 4:49:07 PM - info: Save to DB called
+10/12/2016, 4:49:07 PM - info: saveToDB:2.0764580000000024
+10/12/2016, 4:49:07 PM - info: Save to DB called
+10/12/2016, 4:49:07 PM - info: saveToDB:9.220411000000013
+10/12/2016, 4:49:07 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:49:07 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:49:07 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:49:07 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:49:07 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:49:07 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:49:07 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:49:07 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:49:07 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:49:07 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:49:07 PM - info: create in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:49:07 PM - info: create in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:49:07 PM - info: create in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:49:07 PM - info: update in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:49:07 PM - info: update in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:49:07 PM - info: update in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:49:07 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:49:07 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:49:07 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:49:07 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:49:07 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:49:07 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:49:07 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:49:07 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:49:07 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:49:07 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:49:07 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:49:07 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:49:07 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:49:07 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:49:07 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:07 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:07 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:07 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:49:07 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:07 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:49:08 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:49:08 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:49:08 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:08 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:49:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:49:08 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:49:08 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:49:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:49:08 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:49:08 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:49:08 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:49:08 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:49:08 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:49:08 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:49:08 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:49:08 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:49:08 PM - info: registerUser:1.0599449999999706
+10/12/2016, 4:49:08 PM - info: registerUser:0.8096089999999094
+10/12/2016, 4:49:08 PM - info: registerUser:0.7821519999999964
+10/12/2016, 4:49:08 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:49:08 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:50:59 PM - error: error
+10/12/2016, 4:50:59 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:50:59 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:50:59 PM - info: Save to DB called
+10/12/2016, 4:50:59 PM - info: saveToDB:18.22721100000001
+10/12/2016, 4:50:59 PM - info: Save to DB called
+10/12/2016, 4:50:59 PM - info: saveToDB:2.351413999999977
+10/12/2016, 4:50:59 PM - info: Save to DB called
+10/12/2016, 4:50:59 PM - info: saveToDB:5.3603200000000015
+10/12/2016, 4:50:59 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:50:59 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:50:59 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:50:59 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:50:59 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:50:59 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:50:59 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:50:59 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:50:59 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:50:59 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:50:59 PM - info: create in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:50:59 PM - info: create in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:50:59 PM - info: create in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:50:59 PM - info: update in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:50:59 PM - info: update in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:50:59 PM - info: update in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:50:59 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:50:59 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:50:59 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:50:59 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:50:59 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:50:59 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:50:59 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:50:59 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:50:59 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:50:59 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:50:59 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:50:59 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:50:59 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:50:59 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:50:59 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:50:59 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:50:59 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:50:59 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:50:59 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:50:59 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:50:59 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:50:59 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:50:59 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:50:59 PM - info: registerUser:1.95255300000008
+10/12/2016, 4:50:59 PM - info: registerUser:0.9240740000000187
+10/12/2016, 4:50:59 PM - info: registerUser:1.1358400000001438
+10/12/2016, 4:50:59 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:50:59 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:51:18 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:51:18 PM - info: Save to DB called
+10/12/2016, 4:51:18 PM - info: saveToDB:19.65553399999999
+10/12/2016, 4:51:18 PM - info: Save to DB called
+10/12/2016, 4:51:18 PM - info: saveToDB:4.447138999999993
+10/12/2016, 4:51:18 PM - info: Save to DB called
+10/12/2016, 4:51:18 PM - info: saveToDB:4.736091999999985
+10/12/2016, 4:51:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:51:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:51:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:51:18 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:51:18 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:51:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:51:18 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:51:18 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:51:18 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:51:18 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:51:18 PM - info: create in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:51:18 PM - info: create in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:51:18 PM - info: create in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:51:18 PM - info: update in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:51:18 PM - info: update in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:51:18 PM - info: update in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:51:18 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:51:18 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:51:18 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:51:18 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:51:18 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:51:18 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:51:18 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:51:18 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:51:18 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:51:18 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:18 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:51:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:51:19 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:51:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:51:19 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:51:19 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:51:19 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:51:19 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:51:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:51:19 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:51:19 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:51:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:51:19 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:51:19 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:51:19 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:51:19 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:51:19 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:51:19 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:51:19 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:51:19 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:51:19 PM - info: registerUser:1.6522549999999683
+10/12/2016, 4:51:19 PM - info: registerUser:1.5684360000000197
+10/12/2016, 4:51:19 PM - info: registerUser:1.1791630000000168
+10/12/2016, 4:51:19 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:51:19 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:15 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:15 PM - info: Save to DB called
+10/12/2016, 4:54:15 PM - info: saveToDB:17.270827000000054
+10/12/2016, 4:54:15 PM - info: Save to DB called
+10/12/2016, 4:54:15 PM - info: saveToDB:3.7315569999999525
+10/12/2016, 4:54:15 PM - info: Save to DB called
+10/12/2016, 4:54:15 PM - info: saveToDB:7.558005999999978
+10/12/2016, 4:54:15 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:54:15 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:54:15 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:15 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:15 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:15 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:15 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:54:15 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:54:15 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:54:15 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:54:15 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:15 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:15 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:15 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:15 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:15 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:15 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:54:15 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:54:15 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:54:15 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:54:15 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:15 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:15 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:15 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:15 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:15 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:54:15 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:54:15 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:15 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:15 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:15 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:15 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:15 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:15 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:15 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:15 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:15 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:54:15 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:15 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:54:15 PM - info: registerUser:2.35618199999999
+10/12/2016, 4:54:15 PM - info: registerUser:1.2791970000000674
+10/12/2016, 4:54:15 PM - info: registerUser:1.1784000000000106
+10/12/2016, 4:54:15 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:54:15 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:27 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:27 PM - info: Save to DB called
+10/12/2016, 4:54:27 PM - info: saveToDB:19.00524800000005
+10/12/2016, 4:54:27 PM - info: Save to DB called
+10/12/2016, 4:54:27 PM - info: saveToDB:2.274905999999987
+10/12/2016, 4:54:27 PM - info: Save to DB called
+10/12/2016, 4:54:27 PM - info: saveToDB:4.792561999999975
+10/12/2016, 4:54:27 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:54:27 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:54:27 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:27 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:27 PM - info: getAttributes in attribute service called 
+10/12/2016, 4:54:27 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/12/2016, 4:54:27 PM - info: getIdArrayFromObjects in attribute service called
+10/12/2016, 4:54:27 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:54:27 PM - info: getInterviewsForJobseeker in interview service called 
+10/12/2016, 4:54:27 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:54:27 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:27 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:27 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:27 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:27 PM - info: create in jobapplication service called 
+10/12/2016, 4:54:27 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/
+10/12/2016, 4:54:28 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:28 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:28 PM - info: update in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/3245
+10/12/2016, 4:54:28 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: getApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:54:28 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:54:28 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:54:28 PM - info: getQuestionsForApplication in jobapplication service called 
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:54:28 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:28 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/12/2016, 4:54:28 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:28 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/12/2016, 4:54:28 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:28 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: registeruser in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: saveToDB in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: deleteUser in jobseekerservice called
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/12/2016, 4:54:28 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/12/2016, 4:54:28 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: validateSchema in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: updateUser in jobseekerservice called for 1234567890
+10/12/2016, 4:54:28 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/12/2016, 4:54:28 PM - info: updateToDB in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: inSave in jobseekerservice called 
+10/12/2016, 4:54:28 PM - info: getBasicAttributes in attributeservice  called 
+10/12/2016, 4:54:28 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/12/2016, 4:54:28 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:28 PM - info: getQuestions in questionsservice  called 
+10/12/2016, 4:54:28 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:28 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:28 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:54:28 PM - info: deleteUser in userservice called for userid 
+10/12/2016, 4:54:28 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:54:28 PM - info: registerUser:1.3639470000000529
+10/12/2016, 4:54:28 PM - info: registerUser:1.4977160000000822
+10/12/2016, 4:54:28 PM - info: registerUser:0.9765509999999722
+10/12/2016, 4:54:28 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:54:28 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken

@@ -1,0 +1,547 @@
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:01 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:01 PM - error: error
+10/12/2016, 12:21:02 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:02 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:02 PM - error: uncaughtException: expected [Error: not saved] to equal 'not saved' date=Wed Oct 12 2016 12:21:02 GMT+0530 (IST), pid=88201, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --recursive, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/test], rss=84516864, heapTotal=76570624, heapUsed=37718104, loadavg=[5.8984375, 3.86865234375, 3.52099609375], uptime=86132, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/repositories/jobseekerrepository-save-test.js, function=jobseekerrepo.save, line=168, method=save, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js, function=seeker.save, line=53, method=save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js, function=null, line=3343, method=null, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/document.js, function=null, line=1952, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected [Error: not saved] to equal 'not saved',     at jobseekerrepo.save (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/repositories/jobseekerrepository-save-test.js:168:14),     at seeker.save (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:53:7),     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/document.js:1952:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/12/2016, 12:21:02 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 12:21:02 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 12:21:02 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 12:21:02 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:02 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 12:21:02 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 12:21:02 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 12:21:02 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 12:21:02 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 12:21:02 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:30 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:30 PM - error: error
+10/12/2016, 12:21:31 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:31 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 12:21:31 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 12:21:31 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 12:21:31 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 12:21:31 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 12:21:31 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 12:21:31 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 12:21:31 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 12:21:31 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 12:21:31 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 12:21:31 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 12:21:31 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:45:35 PM - error: error
+10/12/2016, 4:45:35 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:45:35 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:45:36 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:45:37 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:45:37 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:45:37 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:45:37 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:45:37 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:45:37 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:45:38 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:45:39 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:45:39 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:45:39 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:30 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:46:31 PM - error: error
+10/12/2016, 4:46:31 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:46:31 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:46:31 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:46:32 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:46:32 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:46:32 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:46:32 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:46:33 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:46:33 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:46:33 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:46:34 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:46:34 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:46:35 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:49:07 PM - error: error
+10/12/2016, 4:49:07 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:49:07 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:49:07 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:49:07 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:49:07 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:49:07 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:49:07 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:49:08 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:49:08 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:49:08 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:49:08 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:49:08 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error: error
+10/12/2016, 4:50:58 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:50:59 PM - error: error
+10/12/2016, 4:50:59 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:50:59 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:50:59 PM - error: uncaughtException: expected [Error: not saved] to equal 'not saved' date=Wed Oct 12 2016 16:50:59 GMT+0530 (IST), pid=16814, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --recursive, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/test], rss=90247168, heapTotal=76570624, heapUsed=36743424, loadavg=[2.8251953125, 2.8037109375, 2.63525390625], uptime=102329, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/repositories/jobseekerrepository-save-test.js, function=jobseekerrepo.save, line=168, method=save, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js, function=seeker.save, line=53, method=save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js, function=null, line=3343, method=null, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/document.js, function=null, line=1952, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected [Error: not saved] to equal 'not saved',     at jobseekerrepo.save (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/repositories/jobseekerrepository-save-test.js:168:14),     at seeker.save (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:53:7),     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/document.js:1952:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/12/2016, 4:50:59 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:50:59 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:50:59 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:50:59 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:50:59 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:50:59 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:50:59 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:50:59 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:50:59 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:50:59 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:51:18 PM - error: error
+10/12/2016, 4:51:18 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:51:18 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:51:18 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:51:18 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:51:18 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:51:19 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:51:19 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:51:19 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:51:19 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:51:19 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:51:19 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:51:19 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:51:19 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:14 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:15 PM - error: error
+10/12/2016, 4:54:15 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:15 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:15 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:54:15 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:54:15 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:54:15 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:15 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:54:15 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:54:15 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:54:15 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:54:15 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:54:15 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:27 PM - error: error
+10/12/2016, 4:54:27 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:27 PM - error: findById in jobseekerepository returned error Could not connect
+10/12/2016, 4:54:27 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/12/2016, 4:54:27 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/12/2016, 4:54:28 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/12/2016, 4:54:28 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/12/2016, 4:54:28 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/12/2016, 4:54:28 PM - error: findByJobSeekerId returned error Not found
+10/12/2016, 4:54:28 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/12/2016, 4:54:28 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/12/2016, 4:54:28 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/12/2016, 4:54:28 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/12/2016, 4:54:28 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken

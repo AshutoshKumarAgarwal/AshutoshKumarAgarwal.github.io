@@ -1,0 +1,145 @@
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 3:20:48 PM - error: uncaughtException: expected '{ message: \'not saved\' }' to equal 'not saved' date=Tue Oct 04 2016 15:20:48 GMT+0530 (IST), pid=84558, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=76673024, heapTotal=69251072, heapUsed=42243840, loadavg=[2.794921875, 2.591796875, 2.671875], uptime=104927, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js, function=employerrepo.save, line=122, method=save, native=false, column=9, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=emp.save, line=35, method=save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=null, line=3340, method=null, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'not saved\' }' to equal 'not saved',     at employerrepo.save (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js:122:14),     at emp.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:35:9),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16,     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 3:20:48 PM - error: uncaughtException: expected '{ message: \'could not save\' }' to equal 'could not save' date=Tue Oct 04 2016 15:20:48 GMT+0530 (IST), pid=84558, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=78426112, heapTotal=70299648, heapUsed=43972272, loadavg=[2.794921875, 2.591796875, 2.671875], uptime=104927, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js, function=employerrepo.updateEmployer, line=86, method=updateEmployer, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=employer.save, line=98, method=save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=null, line=3340, method=null, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'could not save\' }' to equal 'could not save',     at employerrepo.updateEmployer (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js:86:14),     at employer.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:98:7),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16,     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 3:20:48 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 3:20:48 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: deleteUser in user service returned error error
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: getEmployer in employer service returned error error
+10/4/2016, 3:20:48 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateUser in userservice returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 3:20:48 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:47:07 PM - error: Could not connect
+10/4/2016, 6:47:07 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 6:47:07 PM - error: uncaughtException: expected '{ message: \'not saved\' }' to equal 'not saved' date=Tue Oct 04 2016 18:47:07 GMT+0530 (IST), pid=6485, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --timeout, 259200000, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=105500672, heapTotal=101752832, heapUsed=61106816, loadavg=[3.015625, 2.63623046875, 2.40673828125], uptime=117306, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js, function=employerrepo.save, line=122, method=save, native=false, column=9, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=exports.save.emp.save, line=35, method=save.emp.save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=Model.$wrapCallback, line=3340, method=$wrapCallback, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'not saved\' }' to equal 'not saved',     at employerrepo.save (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js:122:14),     at exports.save.emp.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:35:9),     at Model.$wrapCallback (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 6:47:07 PM - error: uncaughtException: expected '{ message: \'could not save\' }' to equal 'could not save' date=Tue Oct 04 2016 18:47:07 GMT+0530 (IST), pid=6485, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --timeout, 259200000, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=106983424, heapTotal=101752832, heapUsed=62755416, loadavg=[3.015625, 2.63623046875, 2.40673828125], uptime=117306, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js, function=employerrepo.updateEmployer, line=86, method=updateEmployer, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=exports.updateEmployer.employer.save, line=98, method=updateEmployer.employer.save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=Model.$wrapCallback, line=3340, method=$wrapCallback, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'could not save\' }' to equal 'could not save',     at employerrepo.updateEmployer (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js:86:14),     at exports.updateEmployer.employer.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:98:7),     at Model.$wrapCallback (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:47:07 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:47:07 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: deleteUser in user service returned error error
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: getEmployer in employer service returned error error
+10/4/2016, 6:47:07 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateUser in userservice returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 6:47:08 PM - error: 
+10/4/2016, 6:47:08 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/4/2016, 6:47:08 PM - error: 
+10/4/2016, 6:47:08 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 6:47:08 PM - error: Could not connect
+10/4/2016, 6:47:08 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 6:47:08 PM - error: Could not connect
+10/4/2016, 6:47:08 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 6:47:09 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 6:47:09 PM - error: Could not connect
+10/4/2016, 6:47:09 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:52:08 PM - error: Could not connect
+10/4/2016, 6:52:08 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 6:52:08 PM - error: uncaughtException: expected '{ message: \'not saved\' }' to equal 'not saved' date=Tue Oct 04 2016 18:52:08 GMT+0530 (IST), pid=7005, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --timeout, 259200000, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=105340928, heapTotal=102801408, heapUsed=61085568, loadavg=[2.46240234375, 2.5224609375, 2.4169921875], uptime=117607, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js, function=employerrepo.save, line=122, method=save, native=false, column=9, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=exports.save.emp.save, line=35, method=save.emp.save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=Model.$wrapCallback, line=3340, method=$wrapCallback, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'not saved\' }' to equal 'not saved',     at employerrepo.save (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-save-test.js:122:14),     at exports.save.emp.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:35:9),     at Model.$wrapCallback (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 6:52:08 PM - error: uncaughtException: expected '{ message: \'could not save\' }' to equal 'could not save' date=Tue Oct 04 2016 18:52:08 GMT+0530 (IST), pid=7005, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/employer-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /usr/local/lib/node_modules/mocha/bin/_mocha, --timeout, 259200000, --ui, bdd, --reporter, /Users/shubhammakwana/Library/Application Support/IntelliJIdea14/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js, /Users/shubhammakwana/Documents/Workspace/employer-api/test], rss=106995712, heapTotal=102801408, heapUsed=62735680, loadavg=[2.46240234375, 2.5224609375, 2.4169921875], uptime=117607, trace=[column=14, file=/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js, function=employerrepo.updateEmployer, line=86, method=updateEmployer, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js, function=exports.updateEmployer.employer.save, line=98, method=updateEmployer.employer.save, native=false, column=16, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js, function=Model.$wrapCallback, line=3340, method=$wrapCallback, native=false, column=15, file=/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js, function=null, line=1949, method=null, native=false, column=7, file=internal/process/next_tick.js, function=_combinedTickCallback, line=67, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickCallback, line=98, method=_tickCallback, native=false], stack=[AssertionError: expected '{ message: \'could not save\' }' to equal 'could not save',     at employerrepo.updateEmployer (/Users/shubhammakwana/Documents/Workspace/employer-api/test/employerrepository-update-employer-test.js:86:14),     at exports.updateEmployer.employer.save (/Users/shubhammakwana/Documents/Workspace/employer-api/src/repository/employerrepository.js:98:7),     at Model.$wrapCallback (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/model.js:3340:16),     at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/mongoose/lib/document.js:1949:15,     at _combinedTickCallback (internal/process/next_tick.js:67:7),     at process._tickCallback (internal/process/next_tick.js:98:9)]
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:52:08 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:52:08 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: deleteUser in user service returned error error
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: getEmployer in employer service returned error error
+10/4/2016, 6:52:08 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: updateUser in userservice returned error error
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:09 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 6:52:09 PM - error: 
+10/4/2016, 6:52:09 PM - error: 
+10/4/2016, 6:52:09 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 6:52:09 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/4/2016, 6:52:09 PM - error: Could not connect
+10/4/2016, 6:52:09 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 6:52:09 PM - error: Could not connect
+10/4/2016, 6:52:09 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 6:52:09 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 6:52:10 PM - error: Could not connect
+10/4/2016, 6:52:10 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:53:19 PM - error: error on decoding token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuYmFiYWpvYi5jb20iLCJleHAiOjE0NzA4MjI4NzEsInRva2VuSWQiOiJlOTE3MTY4MWU1ZGU0MGIyYmYzOTZlOTI1NTI5NjVkZCIsInVzZXJJZCI6IjYwNDIyNTciLCJ1c2VyTmFtZSI6ImFtYXJuYXRodkBiYWJham9iLmNvbSIsInJvbGUiOiJBRE1JTiIsInByb2ZpbGVJZCI6IjYwNDIyNTciLCJjb25zdW1lcktleSI6IjJrc1J4M2U2VExJTlBLVzhkZTNVZjFEYzI4OGR4UyIsInNjb3BlIjoiQUNDRVNTIn0.SHxTHXHjFHiN0YpBhO2iHJpZr8LVLzwU7lYHw1MkQPA, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : /employers, err :  %s JsonWebTokenError: secret or public key must be provided
+    at Object.module.exports [as verify] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/jsonwebtoken/verify.js:54:17)
+    at Object.exports.authenticate.err [as authenticate] (/Users/shubhammakwana/Documents/Workspace/employer-api/src/lib/requestAuthentication.js:23:25)
+    at app.use (/Users/shubhammakwana/Documents/Workspace/employer-api/src/app.js:33:25)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:271:10)
+    at exports.logger (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express-winston/index.js:291:9)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:271:10)
+    at cors (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/cors/lib/index.js:179:7)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/cors/lib/index.js:229:17
+10/4/2016, 9:09:12 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/4/2016, 9:09:12 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/4/2016, 9:10:29 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:11:46 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:13:03 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:14:20 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)

@@ -1,0 +1,4 @@
+10/7/2016, 4:41:09 PM - info: localhost:9010  "GET /healthcheck" took 3ms and returned 401
+10/7/2016, 4:41:29 PM - info: localhost:9010  "GET /" took 1ms and returned 401
+10/7/2016, 4:45:07 PM - info: localhost:9010  "GET /" took 4ms and returned 401
+10/7/2016, 4:45:48 PM - info: localhost:9010  "GET /" took 6ms and returned 404

@@ -1,0 +1,49 @@
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<WebApplication4.Models.shubham>
+    " %>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Create</title>
+    </head>
+    <body bgcolor="#ffccff">
+        <%= Html.ValidationSummary("Create was unsuccessful. Please correct the errors and try again.") %>
+        <% using (Html.BeginForm()) {%>
+        <fieldset>
+            <legend>Fields</legend>
+            <p>
+                <label for="Email_Id">Email_Id:</label>
+                <%= Html.TextBox("Email_Id")%>
+                <%= Html.ValidationMessage("Email_Id", "*")%>
+            </p>
+            <p>
+                <label for="Passward">Passward:</label>
+                <%=Html.Password("*") %>
+                <%= Html.ValidationMessage("Passward", "*") %>
+            </p>
+            <p>
+                <label for="BirthYear">BirthYear:</label>
+                <%= Html.TextBox("BirthYear")%>
+                <%= Html.ValidationMessage("BirthYear", "*")%>
+            </p>
+            <p>
+                <label for="IndianZipCode ">IndianZipCode :</label>
+                <%= Html.TextBox("IndianZipCode ")%>
+                <%= Html.ValidationMessage("IndianZipCode ", "*")%>
+            </p>
+            <p>
+                <label for="Gender ">Gender:</label>
+                <%= Html.TextBox("Gender ")%>
+                <%= Html.ValidationMessage("Gender ", "*")%>
+            </p>
+            <p>
+                <input type="submit" value="Login" />
+            </p>
+        </fieldset>
+        <% } %>
+        <div>
+            <%: Html.ActionLink("Back to List", "Index") %>
+        </div>
+    </body>
+</html>
+
+</WebApplication4.Models.shubham>

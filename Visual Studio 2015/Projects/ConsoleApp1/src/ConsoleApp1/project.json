@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Microsoft.SqlServer.Compact": "4.0.8876.1",
+        "PetaPoco": "5.0.1"
+    },
+    "commands": {
+        "ConsoleApp1": "run"
+    },
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Console": "4.0.0-beta-22523"
+            }
+        }
+    }
+}

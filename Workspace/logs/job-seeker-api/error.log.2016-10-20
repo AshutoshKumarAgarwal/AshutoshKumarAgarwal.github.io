@@ -1,0 +1,687 @@
+10/20/2016, 10:40:59 AM - error: uncaughtException: callback is not a function date=Thu Oct 20 2016 10:40:59 GMT+0530 (IST), pid=10607, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=37507072, heapTotal=38821888, heapUsed=31170520, loadavg=[2.7802734375, 3.08447265625, 3.14501953125], uptime=221980, trace=[column=6, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js, function=null, line=88, method=null, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js, function=null, line=67, method=null, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js, function=Request.request [as _callback], line=82, method=request [as _callback], native=false, column=22, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=Request.self.callback, line=187, method=self.callback, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=Request.emit, line=191, method=emit, native=false, column=10, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=, line=1048, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=Request.emit, line=188, method=emit, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=, line=969, method=null, native=false, column=20, file=events.js, function=emitNone, line=91, method=null, native=false, column=7, file=events.js, function=IncomingMessage.emit, line=185, method=emit, native=false, column=12, file=_stream_readable.js, function=endReadableNT, line=926, method=null, native=false, column=11, file=internal/process/next_tick.js, function=_combinedTickCallback, line=74, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickDomainCallback, line=122, method=_tickDomainCallback, native=false], stack=[TypeError: callback is not a function,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:88:6,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:67:7,     at Request.request [as _callback] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:82:7),     at Request.self.callback (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:187:22),     at emitTwo (events.js:106:13),     at Request.emit (events.js:191:7),     at Request.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:1048:10),     at emitOne (events.js:96:13),     at Request.emit (events.js:188:7),     at IncomingMessage.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:969:12),     at emitNone (events.js:91:20),     at IncomingMessage.emit (events.js:185:7),     at endReadableNT (_stream_readable.js:926:12),     at _combinedTickCallback (internal/process/next_tick.js:74:11),     at process._tickDomainCallback (internal/process/next_tick.js:122:9)]
+10/20/2016, 10:40:59 AM - error: TypeError: callback is not a function
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:88:6
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:67:7
+    at Request.request [as _callback] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:82:7)
+    at Request.self.callback (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:187:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:1048:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:969:12)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/20/2016, 10:51:49 AM - error: uncaughtException: callback is not a function date=Thu Oct 20 2016 10:51:49 GMT+0530 (IST), pid=11828, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=53321728, heapTotal=76570624, heapUsed=64712280, loadavg=[3.30517578125, 3.2783203125, 3.2275390625], uptime=222630, trace=[column=6, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js, function=null, line=88, method=null, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js, function=null, line=67, method=null, native=false, column=7, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js, function=Request.request [as _callback], line=82, method=request [as _callback], native=false, column=22, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=Request.init.self.callback, line=187, method=init.self.callback, native=false, column=13, file=events.js, function=emitTwo, line=106, method=null, native=false, column=7, file=events.js, function=Request.emit, line=191, method=emit, native=false, column=10, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=, line=1048, method=null, native=false, column=13, file=events.js, function=emitOne, line=96, method=null, native=false, column=7, file=events.js, function=Request.emit, line=188, method=emit, native=false, column=12, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js, function=, line=969, method=null, native=false, column=20, file=events.js, function=emitNone, line=91, method=null, native=false, column=7, file=events.js, function=IncomingMessage.emit, line=185, method=emit, native=false, column=12, file=_stream_readable.js, function=endReadableNT, line=926, method=null, native=false, column=11, file=internal/process/next_tick.js, function=_combinedTickCallback, line=74, method=null, native=false, column=9, file=internal/process/next_tick.js, function=process._tickDomainCallback, line=122, method=_tickDomainCallback, native=false], stack=[TypeError: callback is not a function,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:88:6,     at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:67:7,     at Request.request [as _callback] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:82:7),     at Request.init.self.callback (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:187:22),     at emitTwo (events.js:106:13),     at Request.emit (events.js:191:7),     at Request.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:1048:10),     at emitOne (events.js:96:13),     at Request.emit (events.js:188:7),     at IncomingMessage.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:969:12),     at emitNone (events.js:91:20),     at IncomingMessage.emit (events.js:185:7),     at endReadableNT (_stream_readable.js:926:12),     at _combinedTickCallback (internal/process/next_tick.js:74:11),     at process._tickDomainCallback (internal/process/next_tick.js:122:9)]
+10/20/2016, 10:51:49 AM - error: TypeError: callback is not a function
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:88:6
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:67:7
+    at Request.request [as _callback] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/attributeservice.js:82:7)
+    at Request.init.self.callback (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:187:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:1048:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/request/request.js:969:12)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/20/2016, 10:55:40 AM - error:  Error: write EPIPE
+    at exports._errnoException (util.js:1007:11)
+    at WriteWrap.afterWrite (net.js:793:14)
+10/20/2016, 10:55:59 AM - error:  statusCode=500, message=Something bad happened
+10/20/2016, 10:58:51 AM - error:  statusCode=500, message=Something bad happened
+10/20/2016, 10:58:56 AM - error:  statusCode=500, message=Something bad happened
+10/20/2016, 10:59:54 AM - error: error on request 1476941316190 GET /jobseekers/58074ee0e10743268790b228/categories/1000/unansweredquestions Error: connection timeout
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at listener (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at Server.connect.errorHandler (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:286:16)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at eventHandler (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongodb-core/lib/connection/pool.js:260:12)
+    at g (events.js:286:16)
+    at emitTwo (events.js:106:13)
+10/20/2016, 11:04:42 AM - error: Rabbitmq errorError: write EPIPE
+10/20/2016, 11:04:42 AM - error: RabbitMQ Connection closed: Error: write EPIPE
+10/20/2016, 11:11:13 AM - error:  Error: write EPIPE
+    at exports._errnoException (util.js:1007:11)
+    at WriteWrap.afterWrite (net.js:793:14)
+10/20/2016, 11:18:48 AM - error: uncaughtException: Unexpected identifier date=Thu Oct 20 2016 11:18:48 GMT+0530 (IST), pid=15029, uid=501, gid=20, cwd=/Users/shubhammakwana/Documents/Workspace/job-seeker-api, execPath=/usr/local/Cellar/node/6.0.0/bin/node, version=v6.2.1, argv=[/usr/local/Cellar/node/6.0.0/bin/node, /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js], rss=73252864, heapTotal=68210688, heapUsed=39069488, loadavg=[2.91015625, 3.17431640625, 3.10546875], uptime=224249, trace=[column=16, file=vm.js, function=Object.exports.runInThisContext, line=53, method=exports.runInThisContext, native=false, column=28, file=module.js, function=Module._compile, line=513, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=17, file=module.js, function=Module.require, line=468, method=require, native=false, column=19, file=internal/module.js, function=require, line=20, method=null, native=false, column=20, file=/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/routes/jobseekers.js, function=, line=5, method=null, native=false, column=32, file=module.js, function=Module._compile, line=541, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=550, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=458, method=load, native=false, column=12, file=module.js, function=tryModuleLoad, line=417, method=null, native=false, column=3, file=module.js, function=Function.Module._load, line=409, method=Module._load, native=false, column=17, file=module.js, function=Module.require, line=468, method=require, native=false, column=19, file=internal/module.js, function=require, line=20, method=null, native=false], stack=[/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:32,   xvar jobSeekerId = req.params.jobSeekerId;,        ^^^^^^^^^^^, SyntaxError: Unexpected identifier,     at Object.exports.runInThisContext (vm.js:53:16),     at Module._compile (module.js:513:28),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Module.require (module.js:468:17),     at require (internal/module.js:20:19),     at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/routes/jobseekers.js:5:20),     at Module._compile (module.js:541:32),     at Object.Module._extensions..js (module.js:550:10),     at Module.load (module.js:458:32),     at tryModuleLoad (module.js:417:12),     at Function.Module._load (module.js:409:3),     at Module.require (module.js:468:17),     at require (internal/module.js:20:19)]
+10/20/2016, 11:18:48 AM - error: /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:32
+  xvar jobSeekerId = req.params.jobSeekerId;
+       ^^^^^^^^^^^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/routes/jobseekers.js:5:20)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+10/20/2016, 11:19:38 AM - error:  CastError: Cast to ObjectId failed for value "58074ee0e10743268790b28" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:19:38 AM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790b28" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:19:38 AM - error: findById in jobseekerepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790b28" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:19:59 AM - error:  statusCode=500, message=Something bad happened
+10/20/2016, 11:20:17 AM - error:  CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:20:17 AM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:20:17 AM - error: findById in jobseekerepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:20:35 AM - error:  CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:20:35 AM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:20:35 AM - error: findById in jobseekerepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:21:12 AM - error:  CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:21:12 AM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:21:12 AM - error: findById in jobseekerepository returned error CastError: Cast to ObjectId failed for value "58074ee0e10743268790bf228" at path "_id"
+    at MongooseError.CastError (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/query.js:1298:10)
+    at Function.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1326:13)
+    at Function.findById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:1254:15)
+    at Object.exports.findAttributesAndJobCategoryById (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:108:13)
+    at getSeekerAttributesAndCategoryFromDb (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:60:17)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:1263:23
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:338:31
+    at nextTask (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5021:18)
+    at Object.waterfall (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/async/dist/async.js:5024:9)
+    at Object.exports.getunansweredquestionsforspecificcategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/service/jobseekerquestionservice.js:27:9)
+    at exports.getUnAnsweredQuestionsForSpecificCategory (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/api/jobseeker.js:36:28)
+10/20/2016, 11:21:34 AM - error:  NotFoundError: Jobseeker with jobSeekerId : 58074ee0e10743268790b229 not found
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:118:16
+    at Query.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:259:21
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/20/2016, 11:21:34 AM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: Jobseeker with jobSeekerId : 58074ee0e10743268790b229 not found
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:118:16
+    at Query.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:259:21
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/20/2016, 11:24:30 AM - error: error
+10/20/2016, 11:40:27 AM - error: error
+10/20/2016, 12:02:49 PM - error: error
+10/20/2016, 12:03:30 PM - error: error
+10/20/2016, 12:17:23 PM - error: error
+10/20/2016, 12:20:15 PM - error: error
+10/20/2016, 12:58:06 PM - error: error
+10/20/2016, 12:58:42 PM - error: error
+10/20/2016, 1:12:58 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestionsforspecificcategory-test.js:101:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:14:11 PM - error: error
+10/20/2016, 1:14:11 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/20/2016, 1:14:11 PM - error: findById in jobseekerepository returned error Could not connect
+10/20/2016, 1:14:11 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/20/2016, 1:14:11 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/20/2016, 1:14:11 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/20/2016, 1:14:11 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/20/2016, 1:14:11 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/20/2016, 1:14:11 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/20/2016, 1:14:11 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:14:11 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestionsforspecificcategory-test.js:101:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:14:11 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/20/2016, 1:14:11 PM - error: findByJobSeekerId returned error Not found
+10/20/2016, 1:14:11 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/20/2016, 1:14:12 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/20/2016, 1:14:12 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/20/2016, 1:14:12 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/20/2016, 1:14:12 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:04 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:18:04 PM - error: error
+10/20/2016, 1:18:05 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/20/2016, 1:18:05 PM - error: findById in jobseekerepository returned error Could not connect
+10/20/2016, 1:18:05 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/20/2016, 1:18:05 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/20/2016, 1:18:05 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/20/2016, 1:18:05 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/20/2016, 1:18:05 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/20/2016, 1:18:05 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/20/2016, 1:18:05 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:18:05 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestionsforspecificcategory-test.js:101:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:18:05 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/20/2016, 1:18:05 PM - error: findByJobSeekerId returned error Not found
+10/20/2016, 1:18:05 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/20/2016, 1:18:05 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/20/2016, 1:18:05 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/20/2016, 1:18:05 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/20/2016, 1:18:05 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:49 PM - error: error
+10/20/2016, 1:38:50 PM - error: error
+10/20/2016, 1:38:50 PM - error: error
+10/20/2016, 1:38:50 PM - error: error
+10/20/2016, 1:38:50 PM - error: error
+10/20/2016, 1:38:50 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:38:50 PM - error: error
+10/20/2016, 1:38:50 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/20/2016, 1:38:50 PM - error: findById in jobseekerepository returned error Could not connect
+10/20/2016, 1:38:50 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/20/2016, 1:38:50 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/20/2016, 1:38:50 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/20/2016, 1:38:50 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/20/2016, 1:38:50 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/20/2016, 1:38:50 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/20/2016, 1:38:50 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:38:50 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/20/2016, 1:38:50 PM - error: findByJobSeekerId returned error Not found
+10/20/2016, 1:38:50 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/20/2016, 1:38:50 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/20/2016, 1:38:50 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/20/2016, 1:38:50 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/20/2016, 1:38:50 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:34 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:43:34 PM - error: error
+10/20/2016, 1:43:35 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/20/2016, 1:43:35 PM - error: findById in jobseekerepository returned error Could not connect
+10/20/2016, 1:43:35 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/20/2016, 1:43:35 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/20/2016, 1:43:35 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/20/2016, 1:43:35 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/20/2016, 1:43:35 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/20/2016, 1:43:35 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/20/2016, 1:43:35 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:43:35 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/20/2016, 1:43:35 PM - error: findByJobSeekerId returned error Not found
+10/20/2016, 1:43:35 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/20/2016, 1:43:35 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/20/2016, 1:43:35 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/20/2016, 1:43:35 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/20/2016, 1:43:35 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:44:34 PM - error: error
+10/20/2016, 1:44:34 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/20/2016, 1:44:34 PM - error: findById in jobseekerepository returned error Could not connect
+10/20/2016, 1:44:34 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/20/2016, 1:44:34 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/20/2016, 1:44:34 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/20/2016, 1:44:34 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/20/2016, 1:44:34 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/20/2016, 1:44:34 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/20/2016, 1:44:34 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:44:34 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestionsforspecificcategory-test.js:101:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/20/2016, 1:44:34 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/20/2016, 1:44:34 PM - error: findByJobSeekerId returned error Not found
+10/20/2016, 1:44:34 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/20/2016, 1:44:35 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/20/2016, 1:44:35 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/20/2016, 1:44:35 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/20/2016, 1:44:35 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken

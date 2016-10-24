@@ -1,0 +1,427 @@
+10/4/2016, 3:10:33 PM - info: Connecting to MongoDB
+10/4/2016, 3:16:54 PM - info: Connecting to MongoDB
+10/4/2016, 3:16:54 PM - info: Connecting to RabbitMQ
+10/4/2016, 3:16:54 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/4/2016, 3:16:54 PM - info: Express server listening on port 9012
+10/4/2016, 3:16:54 PM - info: MongoDB Connected!
+10/4/2016, 3:16:55 PM - info: RabbitMQ connected
+10/4/2016, 3:18:33 PM - info: Received SIGINT
+10/4/2016, 3:18:33 PM - info: Cleanup called
+10/4/2016, 3:18:33 PM - info: MongoDB cleanup called
+10/4/2016, 3:18:33 PM - info: Rabbitmq cleanup called
+10/4/2016, 3:18:33 PM - info: MongoDB connection closed
+10/4/2016, 3:18:33 PM - info: RabbitMQ connection closed
+10/4/2016, 3:19:42 PM - info: Connecting to MongoDB
+10/4/2016, 3:19:42 PM - info: Connecting to RabbitMQ
+10/4/2016, 3:19:42 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/4/2016, 3:19:42 PM - info: Express server listening on port 9012
+10/4/2016, 3:19:42 PM - info: MongoDB Connected!
+10/4/2016, 3:19:43 PM - info: RabbitMQ connected
+10/4/2016, 3:20:21 PM - info: Received SIGINT
+10/4/2016, 3:20:21 PM - info: Cleanup called
+10/4/2016, 3:20:21 PM - info: MongoDB cleanup called
+10/4/2016, 3:20:21 PM - info: Rabbitmq cleanup called
+10/4/2016, 3:20:21 PM - info: MongoDB connection closed
+10/4/2016, 3:20:21 PM - info: RabbitMQ connection closed
+10/4/2016, 3:20:22 PM - info: Connecting to MongoDB
+10/4/2016, 3:20:22 PM - info: Connecting to RabbitMQ
+10/4/2016, 3:20:22 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/4/2016, 3:20:22 PM - info: Express server listening on port 9012
+10/4/2016, 3:20:22 PM - info: MongoDB Connected!
+10/4/2016, 3:20:22 PM - info: RabbitMQ connected
+10/4/2016, 3:20:48 PM - info: findByUserId in employer repo called
+10/4/2016, 3:20:48 PM - info: findByUserId in employer repo called
+10/4/2016, 3:20:48 PM - info: findByUserId in employer repo called
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 3:20:48 PM - info: save in employer repo called
+10/4/2016, 3:20:48 PM - info: save in employer repo called
+10/4/2016, 3:20:48 PM - info: updateEmployer in employer repo called
+10/4/2016, 3:20:48 PM - info: merge in employer repo called
+10/4/2016, 3:20:48 PM - info: updateEmployer in employer repo called
+10/4/2016, 3:20:48 PM - info: merge in employer repo called
+10/4/2016, 3:20:48 PM - info: createemployer called in employerservice
+10/4/2016, 3:20:48 PM - info: registerUser called in employerservice
+10/4/2016, 3:20:48 PM - info: saveToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: createemployer called in employerservice
+10/4/2016, 3:20:48 PM - info: registerUser called in employerservice
+10/4/2016, 3:20:48 PM - info: saveToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: createemployer called in employerservice
+10/4/2016, 3:20:48 PM - info: registerUser called in employerservice
+10/4/2016, 3:20:48 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 3:20:48 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 3:20:48 PM - info: createemployer called in employerservice
+10/4/2016, 3:20:48 PM - info: registerUser called in employerservice
+10/4/2016, 3:20:48 PM - info: saveToDB called in employerservice
+10/4/2016, 3:20:48 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 3:20:48 PM - info: createemployer called in employerservice
+10/4/2016, 3:20:48 PM - info: registerUser called in employerservice
+10/4/2016, 3:20:48 PM - info: saveToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: deleteEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: deleteUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: deleteEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: deleteUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: deleteUser in user service returned error error
+10/4/2016, 3:20:48 PM - info: deleteEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: deleteUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 3:20:48 PM - info: deleteEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: deleteUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: getEmployer in employer service returned error error
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerId called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerId called in employerservice
+10/4/2016, 3:20:48 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateUser in userservice returned error error
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 3:20:48 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - info: updateEmployer called in employerservice
+10/4/2016, 3:20:48 PM - info: updateUser called in employerservice
+10/4/2016, 3:20:48 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 3:20:48 PM - info: updateToDB called in employerservice
+10/4/2016, 3:20:48 PM - info: onSave called in employerservice
+10/4/2016, 3:20:48 PM - info: publishEvent called in employerservice
+10/4/2016, 3:20:48 PM - error: 
+10/4/2016, 3:20:48 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 3:20:48 PM - info: registerUser:1.291561999999999
+10/4/2016, 3:20:48 PM - info: registerUser:0.7880440000000135
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - info: registerUser:0.43214799999998377
+10/4/2016, 3:20:48 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 3:20:48 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 3:20:48 PM - error: Could not connect
+10/4/2016, 3:20:48 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:47:07 PM - info: findByUserId in employer repo called
+10/4/2016, 6:47:07 PM - info: findByUserId in employer repo called
+10/4/2016, 6:47:07 PM - info: findByUserId in employer repo called
+10/4/2016, 6:47:07 PM - error: Could not connect
+10/4/2016, 6:47:07 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 6:47:07 PM - info: save in employer repo called
+10/4/2016, 6:47:07 PM - info: save in employer repo called
+10/4/2016, 6:47:07 PM - info: updateEmployer in employer repo called
+10/4/2016, 6:47:07 PM - info: merge in employer repo called
+10/4/2016, 6:47:07 PM - info: updateEmployer in employer repo called
+10/4/2016, 6:47:07 PM - info: merge in employer repo called
+10/4/2016, 6:47:07 PM - info: createemployer called in employerservice
+10/4/2016, 6:47:07 PM - info: registerUser called in employerservice
+10/4/2016, 6:47:07 PM - info: saveToDB called in employerservice
+10/4/2016, 6:47:07 PM - info: onSave called in employerservice
+10/4/2016, 6:47:07 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - info: createemployer called in employerservice
+10/4/2016, 6:47:07 PM - info: registerUser called in employerservice
+10/4/2016, 6:47:07 PM - info: saveToDB called in employerservice
+10/4/2016, 6:47:07 PM - info: onSave called in employerservice
+10/4/2016, 6:47:07 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - info: createemployer called in employerservice
+10/4/2016, 6:47:07 PM - info: registerUser called in employerservice
+10/4/2016, 6:47:07 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:47:07 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:47:07 PM - info: createemployer called in employerservice
+10/4/2016, 6:47:07 PM - info: registerUser called in employerservice
+10/4/2016, 6:47:07 PM - info: saveToDB called in employerservice
+10/4/2016, 6:47:07 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 6:47:07 PM - info: createemployer called in employerservice
+10/4/2016, 6:47:07 PM - info: registerUser called in employerservice
+10/4/2016, 6:47:07 PM - info: saveToDB called in employerservice
+10/4/2016, 6:47:07 PM - info: onSave called in employerservice
+10/4/2016, 6:47:07 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: deleteUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:07 PM - info: onSave called in employerservice
+10/4/2016, 6:47:07 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: deleteUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: deleteUser in user service returned error error
+10/4/2016, 6:47:07 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: deleteUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:47:07 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: deleteUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: getEmployer in employer service returned error error
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerId called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerId called in employerservice
+10/4/2016, 6:47:07 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 6:47:07 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:07 PM - info: onSave called in employerservice
+10/4/2016, 6:47:07 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:07 PM - error: 
+10/4/2016, 6:47:07 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateUser in userservice returned error error
+10/4/2016, 6:47:07 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:47:07 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:07 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:47:07 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 6:47:07 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:07 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:07 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:08 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:08 PM - info: onSave called in employerservice
+10/4/2016, 6:47:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:08 PM - error: 
+10/4/2016, 6:47:08 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/4/2016, 6:47:08 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:47:08 PM - info: updateUser called in employerservice
+10/4/2016, 6:47:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:47:08 PM - info: updateToDB called in employerservice
+10/4/2016, 6:47:08 PM - info: onSave called in employerservice
+10/4/2016, 6:47:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:47:08 PM - error: 
+10/4/2016, 6:47:08 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 6:47:08 PM - error: Could not connect
+10/4/2016, 6:47:08 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 6:47:08 PM - info: registerUser:0.6436720000001515
+10/4/2016, 6:47:08 PM - info: registerUser:1.1720189999996364
+10/4/2016, 6:47:08 PM - error: Could not connect
+10/4/2016, 6:47:08 PM - info: registerUser:0.40439900000092166
+10/4/2016, 6:47:08 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 6:47:09 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 6:47:09 PM - error: Could not connect
+10/4/2016, 6:47:09 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:52:08 PM - info: findByUserId in employer repo called
+10/4/2016, 6:52:08 PM - info: findByUserId in employer repo called
+10/4/2016, 6:52:08 PM - info: findByUserId in employer repo called
+10/4/2016, 6:52:08 PM - error: Could not connect
+10/4/2016, 6:52:08 PM - error: findOne in remployer repo returned error Could not connect
+10/4/2016, 6:52:08 PM - info: save in employer repo called
+10/4/2016, 6:52:08 PM - info: save in employer repo called
+10/4/2016, 6:52:08 PM - info: updateEmployer in employer repo called
+10/4/2016, 6:52:08 PM - info: merge in employer repo called
+10/4/2016, 6:52:08 PM - info: updateEmployer in employer repo called
+10/4/2016, 6:52:08 PM - info: merge in employer repo called
+10/4/2016, 6:52:08 PM - info: createemployer called in employerservice
+10/4/2016, 6:52:08 PM - info: registerUser called in employerservice
+10/4/2016, 6:52:08 PM - info: saveToDB called in employerservice
+10/4/2016, 6:52:08 PM - info: onSave called in employerservice
+10/4/2016, 6:52:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - info: createemployer called in employerservice
+10/4/2016, 6:52:08 PM - info: registerUser called in employerservice
+10/4/2016, 6:52:08 PM - info: saveToDB called in employerservice
+10/4/2016, 6:52:08 PM - info: onSave called in employerservice
+10/4/2016, 6:52:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - info: createemployer called in employerservice
+10/4/2016, 6:52:08 PM - info: registerUser called in employerservice
+10/4/2016, 6:52:08 PM - error: createemployer in employer service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:52:08 PM - error: registeruser in user service returned error statusCode=403, body=This mobile number is taken
+10/4/2016, 6:52:08 PM - info: createemployer called in employerservice
+10/4/2016, 6:52:08 PM - info: registerUser called in employerservice
+10/4/2016, 6:52:08 PM - info: saveToDB called in employerservice
+10/4/2016, 6:52:08 PM - error: createemployer in employer service returned error not saved
+10/4/2016, 6:52:08 PM - info: createemployer called in employerservice
+10/4/2016, 6:52:08 PM - info: registerUser called in employerservice
+10/4/2016, 6:52:08 PM - info: saveToDB called in employerservice
+10/4/2016, 6:52:08 PM - info: onSave called in employerservice
+10/4/2016, 6:52:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: deleteUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:08 PM - info: onSave called in employerservice
+10/4/2016, 6:52:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: deleteUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: deleteUser in user service returned error error
+10/4/2016, 6:52:08 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: deleteUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:52:08 PM - info: deleteEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: deleteUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - error: deleteEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: getEmployer in employer service returned error error
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerId called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerId called in employerservice
+10/4/2016, 6:52:08 PM - error: findByUserId in employer repository returned error Not found
+10/4/2016, 6:52:08 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:08 PM - info: onSave called in employerservice
+10/4/2016, 6:52:08 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:08 PM - error: 
+10/4/2016, 6:52:08 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:08 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:08 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:08 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:08 PM - error: updateUser in userservice returned error error
+10/4/2016, 6:52:09 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:09 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:09 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:09 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerrepo returned error error
+10/4/2016, 6:52:09 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:09 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:09 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:09 PM - error: updateEmployer in employerservice returned error error
+10/4/2016, 6:52:09 PM - error: getEmployer in employerservice returned error for employerid : 1234567890 error
+10/4/2016, 6:52:09 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:09 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:09 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:09 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:09 PM - info: onSave called in employerservice
+10/4/2016, 6:52:09 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:09 PM - error: 
+10/4/2016, 6:52:09 PM - info: updateEmployer called in employerservice
+10/4/2016, 6:52:09 PM - info: updateUser called in employerservice
+10/4/2016, 6:52:09 PM - info: getEmployerByUserId called in employerservice
+10/4/2016, 6:52:09 PM - info: updateToDB called in employerservice
+10/4/2016, 6:52:09 PM - info: onSave called in employerservice
+10/4/2016, 6:52:09 PM - info: publishEvent called in employerservice
+10/4/2016, 6:52:09 PM - error: 
+10/4/2016, 6:52:09 PM - error: error on decoding token : dfghjkl98756fghjk, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : undefined, err :  error
+10/4/2016, 6:52:09 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/4/2016, 6:52:09 PM - error: Could not connect
+10/4/2016, 6:52:09 PM - error:  statusCode=404, body=User does not exist
+10/4/2016, 6:52:09 PM - info: registerUser:0.41968699999961245
+10/4/2016, 6:52:09 PM - info: registerUser:0.46935800000028394
+10/4/2016, 6:52:09 PM - error: Could not connect
+10/4/2016, 6:52:09 PM - info: registerUser:1.1960980000003474
+10/4/2016, 6:52:09 PM - error:  statusCode=400, message=Mobile Number and EmailId missing
+10/4/2016, 6:52:09 PM - error:  statusCode=400, message=Password is missing
+10/4/2016, 6:52:10 PM - error: Could not connect
+10/4/2016, 6:52:10 PM - error:  statusCode=403, body=This mobile number is already taken
+10/4/2016, 6:52:18 PM - info: Received SIGINT
+10/4/2016, 6:52:18 PM - info: Cleanup called
+10/4/2016, 6:52:18 PM - info: MongoDB cleanup called
+10/4/2016, 6:52:18 PM - info: Rabbitmq cleanup called
+10/4/2016, 6:52:18 PM - info: MongoDB connection closed
+10/4/2016, 6:52:18 PM - info: RabbitMQ connection closed
+10/4/2016, 6:52:30 PM - info: Connecting to MongoDB
+10/4/2016, 6:52:30 PM - info: Connecting to RabbitMQ
+10/4/2016, 6:52:30 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/4/2016, 6:52:41 PM - info: Express server listening on port 9012
+10/4/2016, 6:52:41 PM - info: MongoDB Connected!
+10/4/2016, 6:52:41 PM - info: RabbitMQ connected
+10/4/2016, 6:53:19 PM - info: incoming request GET /employers 
+10/4/2016, 6:53:19 PM - error: error on decoding token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuYmFiYWpvYi5jb20iLCJleHAiOjE0NzA4MjI4NzEsInRva2VuSWQiOiJlOTE3MTY4MWU1ZGU0MGIyYmYzOTZlOTI1NTI5NjVkZCIsInVzZXJJZCI6IjYwNDIyNTciLCJ1c2VyTmFtZSI6ImFtYXJuYXRodkBiYWJham9iLmNvbSIsInJvbGUiOiJBRE1JTiIsInByb2ZpbGVJZCI6IjYwNDIyNTciLCJjb25zdW1lcktleSI6IjJrc1J4M2U2VExJTlBLVzhkZTNVZjFEYzI4OGR4UyIsInNjb3BlIjoiQUNDRVNTIn0.SHxTHXHjFHiN0YpBhO2iHJpZr8LVLzwU7lYHw1MkQPA, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : /employers, err :  %s JsonWebTokenError: secret or public key must be provided
+    at Object.module.exports [as verify] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/jsonwebtoken/verify.js:54:17)
+    at Object.exports.authenticate.err [as authenticate] (/Users/shubhammakwana/Documents/Workspace/employer-api/src/lib/requestAuthentication.js:23:25)
+    at app.use (/Users/shubhammakwana/Documents/Workspace/employer-api/src/app.js:33:25)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:271:10)
+    at exports.logger (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express-winston/index.js:291:9)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/express/lib/router/index.js:271:10)
+    at cors (/Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/cors/lib/index.js:179:7)
+    at /Users/shubhammakwana/Documents/Workspace/employer-api/node_modules/cors/lib/index.js:229:17
+10/4/2016, 9:09:12 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/4/2016, 9:09:12 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/4/2016, 9:09:13 PM - info: Connecting to RabbitMQ
+10/4/2016, 9:10:29 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:10:30 PM - info: Connecting to RabbitMQ
+10/4/2016, 9:11:46 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:11:47 PM - info: Connecting to RabbitMQ
+10/4/2016, 9:13:03 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/4/2016, 9:13:04 PM - info: Connecting to RabbitMQ
+10/4/2016, 9:14:20 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)

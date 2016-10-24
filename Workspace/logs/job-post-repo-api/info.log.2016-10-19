@@ -1,0 +1,88 @@
+10/19/2016, 7:11:37 PM - info: Connecting to MongoDB
+10/19/2016, 7:11:37 PM - info: Connecting to RabbitMQ
+10/19/2016, 7:11:37 PM - info: getAllJobCategories in jobcategoryservice  called 
+10/19/2016, 7:11:37 PM - info: planservice init called
+10/19/2016, 7:11:42 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/19/2016, 7:11:46 PM - info: Express server listening on port 9014
+10/19/2016, 7:11:46 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:11:46 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:11:46 PM - info: MongoDB Connected!
+10/19/2016, 7:11:46 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:11:46 PM - info: RabbitMQ connected
+10/19/2016, 7:13:41 PM - info: Received SIGINT
+10/19/2016, 7:13:41 PM - info: Cleanup called
+10/19/2016, 7:13:41 PM - info: MongoDB cleanup called
+10/19/2016, 7:13:41 PM - info: Rabbitmq cleanup called
+10/19/2016, 7:13:41 PM - info: MongoDB connection closed
+10/19/2016, 7:13:41 PM - info: RabbitMQ connection closed
+10/19/2016, 7:14:12 PM - info: Connecting to MongoDB
+10/19/2016, 7:14:12 PM - info: Connecting to RabbitMQ
+10/19/2016, 7:14:12 PM - info: getAllJobCategories in jobcategoryservice  called 
+10/19/2016, 7:14:12 PM - info: planservice init called
+10/19/2016, 7:14:17 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/19/2016, 7:14:20 PM - info: Express server listening on port 9014
+10/19/2016, 7:14:20 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:14:20 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:14:20 PM - info: MongoDB Connected!
+10/19/2016, 7:14:20 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:14:20 PM - info: RabbitMQ connected
+10/19/2016, 7:15:03 PM - info: getJobPostByJobId in getjobpostservice called for 2146308647
+10/19/2016, 7:15:57 PM - info: getJobPostByJobId in getjobpostservice called for 2146308647
+10/19/2016, 7:16:15 PM - info: Received SIGINT
+10/19/2016, 7:16:15 PM - info: Cleanup called
+10/19/2016, 7:16:15 PM - info: MongoDB cleanup called
+10/19/2016, 7:16:15 PM - info: Rabbitmq cleanup called
+10/19/2016, 7:16:15 PM - info: MongoDB connection closed
+10/19/2016, 7:16:15 PM - info: RabbitMQ connection closed
+10/19/2016, 7:17:20 PM - info: Connecting to MongoDB
+10/19/2016, 7:17:20 PM - info: Connecting to RabbitMQ
+10/19/2016, 7:17:20 PM - info: getAllJobCategories in jobcategoryservice  called 
+10/19/2016, 7:17:20 PM - info: planservice init called
+10/19/2016, 7:17:20 PM - info: loadconsumerkeys called in consumerkeyrepo
+10/19/2016, 7:17:21 PM - info: Express server listening on port 9014
+10/19/2016, 7:17:21 PM - error: category service returned error Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:17:21 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:17:21 PM - info: MongoDB Connected!
+10/19/2016, 7:17:21 PM - error:  ConnectionError: Connection is closed.
+    at /Users/shubhammakwana/Documents/Workspace/job-post-node/node_modules/mssql/lib/main.js:1569:17
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/19/2016, 7:17:21 PM - info: RabbitMQ connected
+10/19/2016, 7:17:27 PM - info: getJobPostByJobId in getjobpostservice called for 2146308647
+10/19/2016, 7:50:29 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/19/2016, 7:50:29 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/19/2016, 7:50:30 PM - info: Connecting to RabbitMQ
+10/19/2016, 7:51:46 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/19/2016, 7:51:47 PM - info: Connecting to RabbitMQ
+10/19/2016, 7:51:47 PM - info: RabbitMQ connected
+10/20/2016, 1:18:09 AM - error: Rabbitmq errorError: read ETIMEDOUT
+10/20/2016, 1:18:09 AM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/20/2016, 1:18:10 AM - info: Connecting to RabbitMQ
+10/20/2016, 1:18:11 AM - info: In Uncaught exception: 

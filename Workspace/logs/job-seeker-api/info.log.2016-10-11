@@ -1,0 +1,1786 @@
+10/11/2016, 12:20:02 PM - info: Connecting to MongoDB
+10/11/2016, 12:20:02 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:20:02 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:20:02 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:20:02 PM - info: Express server listening on port 9010
+10/11/2016, 12:20:02 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:20:02 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:20:32 PM - info: In Uncaught exception: 
+10/11/2016, 12:21:32 PM - info: Connecting to MongoDB
+10/11/2016, 12:21:32 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:21:32 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:21:32 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:21:32 PM - info: Express server listening on port 9010
+10/11/2016, 12:22:02 PM - info: In Uncaught exception: 
+10/11/2016, 12:27:06 PM - info: Connecting to MongoDB
+10/11/2016, 12:27:06 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:27:06 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:27:06 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:27:06 PM - info: Express server listening on port 9010
+10/11/2016, 12:27:06 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:27:06 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:27:06 PM - info: MongoDB Connected!
+10/11/2016, 12:28:21 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:28:22 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:29:38 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:29:39 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:30:54 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:30:55 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:32:10 PM - error:  Error: connect ETIMEDOUT 172.16.4.17:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:34:21 PM - info: Connecting to MongoDB
+10/11/2016, 12:34:21 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:34:21 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:34:21 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:34:21 PM - info: Express server listening on port 9010
+10/11/2016, 12:34:21 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:34:21 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:34:21 PM - info: MongoDB Connected!
+10/11/2016, 12:34:21 PM - info: RabbitMQ connected
+10/11/2016, 12:34:24 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:34:24 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:34:25 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:34:25 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:34:38 PM - info: Received SIGINT
+10/11/2016, 12:34:38 PM - info: Cleanup called
+10/11/2016, 12:34:38 PM - info: MongoDB cleanup called
+10/11/2016, 12:34:38 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:34:38 PM - info: MongoDB connection closed
+10/11/2016, 12:34:38 PM - info: RabbitMQ connection closed
+10/11/2016, 12:34:39 PM - info: Connecting to MongoDB
+10/11/2016, 12:34:39 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:34:39 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:34:39 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:34:39 PM - info: Express server listening on port 9010
+10/11/2016, 12:34:39 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:34:39 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:34:39 PM - info: MongoDB Connected!
+10/11/2016, 12:34:40 PM - info: RabbitMQ connected
+10/11/2016, 12:34:42 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:34:42 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:34:42 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:34:42 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:39:14 PM - info: getJobSeekerByUserId in jobseekerservice called for 7914015
+10/11/2016, 12:39:14 PM - error: findByJobSeekerId returned error NotFoundError: Jobseeker with userId : 7914015 not found
+    at jobseeker.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:101:16)
+    at Query.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:259:21
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/11/2016, 12:39:32 PM - info: getJobSeekerByUserId in jobseekerservice called for 7913993
+10/11/2016, 12:39:32 PM - error: findByJobSeekerId returned error NotFoundError: Jobseeker with userId : 7913993 not found
+    at jobseeker.findOne (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/repository/jobseekerrepository.js:101:16)
+    at Query.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/mongoose/lib/model.js:3343:16)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:259:21
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+10/11/2016, 12:40:05 PM - info: Received SIGINT
+10/11/2016, 12:40:05 PM - info: Cleanup called
+10/11/2016, 12:40:05 PM - info: MongoDB cleanup called
+10/11/2016, 12:40:05 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:40:05 PM - info: MongoDB connection closed
+10/11/2016, 12:40:05 PM - info: RabbitMQ connection closed
+10/11/2016, 12:40:07 PM - info: Connecting to MongoDB
+10/11/2016, 12:40:07 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:40:07 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:40:07 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:40:07 PM - info: Express server listening on port 9010
+10/11/2016, 12:40:07 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:40:07 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:40:07 PM - info: MongoDB Connected!
+10/11/2016, 12:40:08 PM - info: RabbitMQ connected
+10/11/2016, 12:40:11 PM - info: getJobSeekerByUserId in jobseekerservice called for 7913993
+10/11/2016, 12:40:33 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:40:33 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:40:33 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:40:33 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:40:42 PM - info: getJobSeekerByUserId in jobseekerservice called for 7913993
+10/11/2016, 12:40:53 PM - info: getJobSeeker in jobseekerservice  called for 57f75c2c5cc101607a49cb8a
+10/11/2016, 12:40:58 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:40:58 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:40:58 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:40:58 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:41:31 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:41:31 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:41:31 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:41:31 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:41:37 PM - info: Received SIGINT
+10/11/2016, 12:41:37 PM - info: Cleanup called
+10/11/2016, 12:41:37 PM - info: MongoDB cleanup called
+10/11/2016, 12:41:37 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:41:37 PM - info: MongoDB connection closed
+10/11/2016, 12:41:37 PM - info: RabbitMQ connection closed
+10/11/2016, 12:41:56 PM - info: Connecting to MongoDB
+10/11/2016, 12:41:56 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:41:56 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:41:56 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:42:04 PM - info: Express server listening on port 9010
+10/11/2016, 12:42:04 PM - info: Received SIGINT
+10/11/2016, 12:42:04 PM - info: Cleanup called
+10/11/2016, 12:42:04 PM - info: MongoDB cleanup called
+10/11/2016, 12:42:04 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:42:04 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:42:04 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:42:04 PM - info: MongoDB Connected!
+10/11/2016, 12:42:20 PM - info: Connecting to MongoDB
+10/11/2016, 12:42:20 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:42:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:42:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:42:28 PM - info: Express server listening on port 9010
+10/11/2016, 12:42:28 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:42:28 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:42:28 PM - info: MongoDB Connected!
+10/11/2016, 12:42:28 PM - info: RabbitMQ connected
+10/11/2016, 12:42:38 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:42:38 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:42:45 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:42:45 PM - error:  statusCode=404, statusCode=NotFound, message=The resource you have requested cannot be found., details=Error details are currently disabled. Please set <code>StaticConfiguration.DisableErrorTraces = false;</code> to enable.
+10/11/2016, 12:43:01 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:44:43 PM - info: Connecting to MongoDB
+10/11/2016, 12:44:43 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:44:43 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:44:43 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:44:51 PM - info: In Uncaught exception: 
+10/11/2016, 12:44:51 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Timeout.Module.runMain [as _onTimeout] (module.js:575:10)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+10/11/2016, 12:44:51 PM - info: Cleanup called
+10/11/2016, 12:44:51 PM - info: MongoDB cleanup called
+10/11/2016, 12:44:51 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:44:51 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:45:17 PM - info: Connecting to MongoDB
+10/11/2016, 12:45:17 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:45:17 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:45:17 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:45:25 PM - info: In Uncaught exception: 
+10/11/2016, 12:45:25 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Timeout.Module.runMain [as _onTimeout] (module.js:575:10)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+10/11/2016, 12:45:25 PM - info: Cleanup called
+10/11/2016, 12:45:25 PM - info: MongoDB cleanup called
+10/11/2016, 12:45:25 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:45:25 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:45:29 PM - info: Connecting to MongoDB
+10/11/2016, 12:45:29 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:45:29 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:45:29 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:45:30 PM - info: In Uncaught exception: 
+10/11/2016, 12:45:30 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 12:45:30 PM - info: Cleanup called
+10/11/2016, 12:45:30 PM - info: MongoDB cleanup called
+10/11/2016, 12:45:30 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:45:30 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:45:43 PM - info: Connecting to MongoDB
+10/11/2016, 12:45:43 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:45:43 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:45:43 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:45:43 PM - info: In Uncaught exception: 
+10/11/2016, 12:45:43 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 12:45:43 PM - info: Cleanup called
+10/11/2016, 12:45:43 PM - info: MongoDB cleanup called
+10/11/2016, 12:45:43 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:45:43 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:46:54 PM - info: Connecting to MongoDB
+10/11/2016, 12:46:54 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:46:54 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:46:54 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:46:54 PM - info: In Uncaught exception: 
+10/11/2016, 12:46:54 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 12:46:54 PM - info: Cleanup called
+10/11/2016, 12:46:54 PM - info: MongoDB cleanup called
+10/11/2016, 12:46:54 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:46:54 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:47:20 PM - info: Connecting to MongoDB
+10/11/2016, 12:47:20 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:47:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:47:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:47:20 PM - info: In Uncaught exception: 
+10/11/2016, 12:47:20 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 12:47:20 PM - info: Cleanup called
+10/11/2016, 12:47:20 PM - info: MongoDB cleanup called
+10/11/2016, 12:47:20 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:47:20 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:48:20 PM - info: Connecting to MongoDB
+10/11/2016, 12:48:20 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:48:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:48:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:48:20 PM - info: Express server listening on port 9010
+10/11/2016, 12:48:20 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:48:20 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:48:20 PM - info: MongoDB Connected!
+10/11/2016, 12:48:20 PM - info: RabbitMQ connected
+10/11/2016, 12:48:25 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:48:25 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:48:26 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:48:26 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:48:32 PM - info: Received SIGINT
+10/11/2016, 12:48:32 PM - info: Cleanup called
+10/11/2016, 12:48:32 PM - info: MongoDB cleanup called
+10/11/2016, 12:48:32 PM - info: Rabbitmq cleanup called
+10/11/2016, 12:48:32 PM - info: MongoDB connection closed
+10/11/2016, 12:48:32 PM - info: RabbitMQ connection closed
+10/11/2016, 12:48:51 PM - info: Connecting to MongoDB
+10/11/2016, 12:48:51 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:48:51 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 12:48:51 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 12:48:58 PM - info: Express server listening on port 9010
+10/11/2016, 12:48:58 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 12:48:58 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 12:48:58 PM - info: MongoDB Connected!
+10/11/2016, 12:48:59 PM - info: RabbitMQ connected
+10/11/2016, 12:50:42 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:52:26 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:52:26 PM - error: Rabbitmq errorError: read ECONNRESET
+10/11/2016, 12:52:26 PM - error: RabbitMQ Connection closed: Error: read ECONNRESET
+10/11/2016, 12:53:10 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:53:10 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:53:10 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:53:11 PM - info: RabbitMQ connected
+10/11/2016, 12:53:22 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 12:53:29 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 12:58:32 PM - error: Rabbitmq errorError: read ECONNRESET
+10/11/2016, 12:58:32 PM - error: RabbitMQ Connection closed: Error: read ECONNRESET
+10/11/2016, 12:58:36 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57f75c2c5cc101607a49cb8a statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:58:36 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 12:58:36 PM - info: Connecting to RabbitMQ
+10/11/2016, 12:58:37 PM - info: RabbitMQ connected
+10/11/2016, 3:11:37 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 3:11:40 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 3:11:45 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:11:45 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:12:19 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 3:56:59 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 3:57:03 PM - error: Rabbitmq errorError: write EPIPE
+10/11/2016, 3:57:03 PM - error: RabbitMQ Connection closed: Error: write EPIPE
+10/11/2016, 3:57:05 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 3:57:06 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 3:57:07 PM - info: Connecting to RabbitMQ
+10/11/2016, 3:57:08 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:08 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:09 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:09 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:09 PM - info: RabbitMQ connected
+10/11/2016, 3:57:31 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 3:57:32 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 3:57:34 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:34 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 3:57:48 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 3:59:07 PM - info: Connecting to MongoDB
+10/11/2016, 3:59:07 PM - info: Connecting to RabbitMQ
+10/11/2016, 3:59:07 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 3:59:07 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 3:59:08 PM - info: In Uncaught exception: 
+10/11/2016, 3:59:08 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 3:59:08 PM - info: Cleanup called
+10/11/2016, 3:59:08 PM - info: MongoDB cleanup called
+10/11/2016, 3:59:08 PM - info: Rabbitmq cleanup called
+10/11/2016, 3:59:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 3:59:26 PM - info: Connecting to MongoDB
+10/11/2016, 3:59:26 PM - info: Connecting to RabbitMQ
+10/11/2016, 3:59:26 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 3:59:26 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 3:59:27 PM - info: In Uncaught exception: 
+10/11/2016, 3:59:27 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 3:59:27 PM - info: Cleanup called
+10/11/2016, 3:59:27 PM - info: MongoDB cleanup called
+10/11/2016, 3:59:27 PM - info: Rabbitmq cleanup called
+10/11/2016, 3:59:27 PM - info: Process exiting: 1
+10/11/2016, 3:59:52 PM - info: Connecting to MongoDB
+10/11/2016, 3:59:52 PM - info: Connecting to RabbitMQ
+10/11/2016, 3:59:52 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 3:59:52 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 3:59:52 PM - info: In Uncaught exception: 
+10/11/2016, 3:59:52 PM - error: Error: listen EADDRINUSE :::9010
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:47:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:456:3
+10/11/2016, 3:59:52 PM - info: Cleanup called
+10/11/2016, 3:59:52 PM - info: MongoDB cleanup called
+10/11/2016, 3:59:52 PM - info: Rabbitmq cleanup called
+10/11/2016, 3:59:52 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:00:13 PM - info: Connecting to MongoDB
+10/11/2016, 4:00:13 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:00:13 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:00:13 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:00:13 PM - info: Express server listening on port 9010
+10/11/2016, 4:00:13 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:00:13 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:00:13 PM - info: MongoDB Connected!
+10/11/2016, 4:00:14 PM - info: RabbitMQ connected
+10/11/2016, 4:00:16 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:00:16 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:01:16 PM - info: Received SIGINT
+10/11/2016, 4:01:16 PM - info: Cleanup called
+10/11/2016, 4:01:16 PM - info: MongoDB cleanup called
+10/11/2016, 4:01:16 PM - info: Rabbitmq cleanup called
+10/11/2016, 4:01:16 PM - info: MongoDB connection closed
+10/11/2016, 4:01:16 PM - info: RabbitMQ connection closed
+10/11/2016, 4:01:18 PM - info: Connecting to MongoDB
+10/11/2016, 4:01:18 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:01:18 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:01:18 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:01:19 PM - info: Express server listening on port 9010
+10/11/2016, 4:01:19 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:01:19 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:01:19 PM - info: MongoDB Connected!
+10/11/2016, 4:01:19 PM - info: RabbitMQ connected
+10/11/2016, 4:01:25 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:01:25 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:02:23 PM - info: Received SIGINT
+10/11/2016, 4:02:23 PM - info: Cleanup called
+10/11/2016, 4:02:23 PM - info: MongoDB cleanup called
+10/11/2016, 4:02:23 PM - info: Rabbitmq cleanup called
+10/11/2016, 4:02:23 PM - info: MongoDB connection closed
+10/11/2016, 4:02:23 PM - info: RabbitMQ connection closed
+10/11/2016, 4:02:32 PM - info: Connecting to MongoDB
+10/11/2016, 4:02:32 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:02:32 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:02:32 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:02:32 PM - info: Express server listening on port 9010
+10/11/2016, 4:02:32 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:02:32 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:02:32 PM - info: MongoDB Connected!
+10/11/2016, 4:02:32 PM - info: RabbitMQ connected
+10/11/2016, 4:02:42 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:02:42 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:03:57 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df { Error: connect ETIMEDOUT 45.33.117.213:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '45.33.117.213',
+  port: 9002 }
+10/11/2016, 4:03:57 PM - error:  Error: connect ETIMEDOUT 45.33.117.213:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:03:57 PM - error: get request returned error Error: connect ETIMEDOUT 45.33.117.213:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:04:01 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:04:01 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:04:16 PM - info: Received SIGINT
+10/11/2016, 4:04:16 PM - info: Cleanup called
+10/11/2016, 4:04:16 PM - info: MongoDB cleanup called
+10/11/2016, 4:04:16 PM - info: Rabbitmq cleanup called
+10/11/2016, 4:04:16 PM - info: MongoDB connection closed
+10/11/2016, 4:04:16 PM - info: RabbitMQ connection closed
+10/11/2016, 4:04:35 PM - info: Connecting to MongoDB
+10/11/2016, 4:04:35 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:04:35 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:04:35 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:04:43 PM - info: Express server listening on port 9010
+10/11/2016, 4:04:43 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:04:43 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:04:43 PM - info: MongoDB Connected!
+10/11/2016, 4:04:43 PM - info: RabbitMQ connected
+10/11/2016, 4:04:50 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:05:12 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:06:32 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df { Error: connect ETIMEDOUT 45.79.5.162:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '45.79.5.162',
+  port: 9002 }
+10/11/2016, 4:06:32 PM - error:  Error: connect ETIMEDOUT 45.79.5.162:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:06:32 PM - error: get request returned error Error: connect ETIMEDOUT 45.79.5.162:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:06:39 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:06:40 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:07:57 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df { Error: connect ETIMEDOUT 45.79.7.70:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '45.79.7.70',
+  port: 9002 }
+10/11/2016, 4:07:57 PM - error:  Error: connect ETIMEDOUT 45.79.7.70:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:07:57 PM - error: get request returned error Error: connect ETIMEDOUT 45.79.7.70:9002
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:22:20 PM - info: Received SIGINT
+10/11/2016, 4:22:20 PM - info: Cleanup called
+10/11/2016, 4:22:20 PM - info: MongoDB cleanup called
+10/11/2016, 4:22:20 PM - info: Rabbitmq cleanup called
+10/11/2016, 4:22:20 PM - info: MongoDB connection closed
+10/11/2016, 4:22:20 PM - info: RabbitMQ connection closed
+10/11/2016, 4:22:50 PM - info: Connecting to MongoDB
+10/11/2016, 4:22:50 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:22:50 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:22:50 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:22:50 PM - info: Express server listening on port 9010
+10/11/2016, 4:22:50 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:22:50 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:22:50 PM - info: MongoDB Connected!
+10/11/2016, 4:22:51 PM - info: RabbitMQ connected
+10/11/2016, 4:23:03 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:23:03 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:23:03 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 4:23:03 PM - error:  statusCode=500, message=Input string was not in a correct format.
+10/11/2016, 4:23:24 PM - info: Received SIGINT
+10/11/2016, 4:23:24 PM - info: Cleanup called
+10/11/2016, 4:23:24 PM - info: MongoDB cleanup called
+10/11/2016, 4:23:24 PM - info: Rabbitmq cleanup called
+10/11/2016, 4:23:24 PM - info: MongoDB connection closed
+10/11/2016, 4:23:24 PM - info: RabbitMQ connection closed
+10/11/2016, 4:23:43 PM - info: Connecting to MongoDB
+10/11/2016, 4:23:43 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:23:43 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 4:23:43 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 4:23:51 PM - info: Express server listening on port 9010
+10/11/2016, 4:23:51 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 4:23:51 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 4:23:51 PM - info: MongoDB Connected!
+10/11/2016, 4:23:52 PM - info: RabbitMQ connected
+10/11/2016, 4:23:57 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:37:56 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:37:57 PM - error: Rabbitmq errorError: read ECONNRESET
+10/11/2016, 4:37:57 PM - error: RabbitMQ Connection closed: Error: read ECONNRESET
+10/11/2016, 4:38:02 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=404, message={"name":"NotFoundError","message":"error performing operation!","statusCode":404}
+10/11/2016, 4:38:02 PM - error:  statusCode=404, message={"name":"NotFoundError","message":"error performing operation!","statusCode":404}
+10/11/2016, 4:38:02 PM - info: Connecting to RabbitMQ
+10/11/2016, 4:38:02 PM - info: RabbitMQ connected
+10/11/2016, 4:38:16 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:38:19 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 4:38:26 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : 57eceb9750babb4ab056e7df statusCode=404, message={"name":"NotFoundError","message":"error performing operation!","statusCode":404}
+10/11/2016, 4:38:26 PM - error:  statusCode=404, message={"name":"NotFoundError","message":"error performing operation!","statusCode":404}
+10/11/2016, 4:44:47 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 4:44:49 PM - info: getRequestWrapper in requestWrapper called
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:24:17 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:24:17 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:30 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:25:52 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:25:52 PM - error: error
+10/11/2016, 5:43:01 PM - error: error
+10/11/2016, 5:44:34 PM - error: error
+10/11/2016, 5:45:00 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:21 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:45:21 PM - error: error
+10/11/2016, 5:45:48 PM - error: error
+10/11/2016, 5:45:49 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:45:49 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:45:49 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:21 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:46:21 PM - error: error
+10/11/2016, 5:46:22 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/11/2016, 5:46:22 PM - error: findById in jobseekerepository returned error Could not connect
+10/11/2016, 5:46:22 PM - info: Save to DB called
+10/11/2016, 5:46:22 PM - info: saveToDB:18.964202
+10/11/2016, 5:46:22 PM - info: Save to DB called
+10/11/2016, 5:46:22 PM - info: saveToDB:7.293428999999946
+10/11/2016, 5:46:22 PM - info: Save to DB called
+10/11/2016, 5:46:22 PM - info: saveToDB:9.698034000000007
+10/11/2016, 5:46:22 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 5:46:22 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/11/2016, 5:46:22 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:46:22 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:46:22 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:46:22 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:46:22 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 5:46:22 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 5:46:22 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 5:46:22 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/11/2016, 5:46:22 PM - info: create in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:46:22 PM - info: create in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:46:22 PM - info: create in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:46:22 PM - info: update in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:46:22 PM - info: update in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:46:22 PM - info: update in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:46:22 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:46:22 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/11/2016, 5:46:22 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:46:22 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/11/2016, 5:46:22 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/11/2016, 5:46:22 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:46:22 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/11/2016, 5:46:22 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:46:22 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:46:22 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:46:22 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:46:22 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:46:22 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 5:46:22 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 5:46:22 PM - error: findByJobSeekerId returned error Not found
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:46:22 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:46:22 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:46:22 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:46:22 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:46:22 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:46:22 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:46:22 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:46:22 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:46:22 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:46:22 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:46:22 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/11/2016, 5:46:22 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/11/2016, 5:46:22 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:46:22 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/11/2016, 5:46:22 PM - info: registerUser:1.411450000000059
+10/11/2016, 5:46:22 PM - info: registerUser:0.45475199999987126
+10/11/2016, 5:46:22 PM - info: registerUser:0.6568190000000413
+10/11/2016, 5:46:22 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/11/2016, 5:46:22 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:48:07 PM - error: error
+10/11/2016, 5:48:07 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/11/2016, 5:48:07 PM - error: findById in jobseekerepository returned error Could not connect
+10/11/2016, 5:48:07 PM - info: Save to DB called
+10/11/2016, 5:48:07 PM - info: saveToDB:23.939534999999978
+10/11/2016, 5:48:07 PM - info: Save to DB called
+10/11/2016, 5:48:07 PM - info: saveToDB:7.5127460000001065
+10/11/2016, 5:48:07 PM - info: Save to DB called
+10/11/2016, 5:48:07 PM - info: saveToDB:7.610472999999956
+10/11/2016, 5:48:08 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 5:48:08 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/11/2016, 5:48:08 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:48:08 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:48:08 PM - info: getAttributes in attribute service called 
+10/11/2016, 5:48:08 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 5:48:08 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 5:48:08 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 5:48:08 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 5:48:08 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/11/2016, 5:48:08 PM - info: create in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:48:08 PM - info: create in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:48:08 PM - info: create in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 5:48:08 PM - info: update in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:48:08 PM - info: update in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:48:08 PM - info: update in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 5:48:08 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: getApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:48:08 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/11/2016, 5:48:08 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 5:48:08 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/11/2016, 5:48:08 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/11/2016, 5:48:08 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 5:48:08 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/11/2016, 5:48:08 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:48:08 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 5:48:08 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 5:48:08 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 5:48:08 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:48:08 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 5:48:08 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 5:48:08 PM - error: findByJobSeekerId returned error Not found
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 5:48:08 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 5:48:08 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: inSave in jobseekerservice called 
+10/11/2016, 5:48:08 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 5:48:08 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:48:08 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/11/2016, 5:48:08 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/11/2016, 5:48:08 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:48:08 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 5:48:08 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:48:08 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:48:08 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/11/2016, 5:48:08 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 5:48:08 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/11/2016, 5:48:08 PM - info: registerUser:0.7669399999999769
+10/11/2016, 5:48:08 PM - info: registerUser:0.3808599999999842
+10/11/2016, 5:48:08 PM - info: registerUser:0.3738780000001043
+10/11/2016, 5:48:08 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/11/2016, 5:48:08 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken
+10/11/2016, 6:19:53 PM - info: Received SIGINT
+10/11/2016, 6:19:53 PM - info: Cleanup called
+10/11/2016, 6:19:53 PM - info: MongoDB cleanup called
+10/11/2016, 6:19:53 PM - info: Rabbitmq cleanup called
+10/11/2016, 6:19:53 PM - info: MongoDB connection closed
+10/11/2016, 6:19:53 PM - info: RabbitMQ connection closed
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - info: getAttributes in attribute service called 
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error:  NotFoundError: not found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/api/jobseekerapi-post-test.js:56:91)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 10:15:18 PM - error: error
+10/11/2016, 10:15:18 PM - error: findByJobSeekerId in jobseekerepository returned error Could not connect
+10/11/2016, 10:15:18 PM - error: findById in jobseekerepository returned error Could not connect
+10/11/2016, 10:15:18 PM - info: Save to DB called
+10/11/2016, 10:15:18 PM - info: saveToDB:4.925139999999374
+10/11/2016, 10:15:18 PM - info: Save to DB called
+10/11/2016, 10:15:18 PM - info: saveToDB:2.4231929999987187
+10/11/2016, 10:15:18 PM - info: Save to DB called
+10/11/2016, 10:15:18 PM - info: saveToDB:3.3989000000001397
+10/11/2016, 10:15:18 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 10:15:18 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 10:15:18 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 10:15:19 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - error: call attribute service in attribute service returned error for categoryId : 2 Could not connect
+10/11/2016, 10:15:19 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - info: getAttributes in attribute service called 
+10/11/2016, 10:15:19 PM - info: getAttributes in attribute service called 
+10/11/2016, 10:15:19 PM - info: getAttributes in attribute service called 
+10/11/2016, 10:15:19 PM - info: getCategoryAttributeList in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 2
+10/11/2016, 10:15:19 PM - info: getIdArrayFromObjects in attribute service called
+10/11/2016, 10:15:19 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 10:15:19 PM - info: getInterviewsForJobseeker in interview service called 
+10/11/2016, 10:15:19 PM - error: getInterviewsForJobseeker passthrough returned error for jobSeekerId : 5742908688b10bdb1bcd1a39 Could not connect
+10/11/2016, 10:15:19 PM - info: create in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 10:15:19 PM - info: create in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 10:15:19 PM - info: create in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers
+10/11/2016, 10:15:19 PM - info: update in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 10:15:19 PM - info: update in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 10:15:19 PM - info: update in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: amendRequestBodyAndSendRequest in jobapplication called for http://10.150.4.101:9002/jobApplications/jobseekers/3245
+10/11/2016, 10:15:19 PM - info: getApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: getApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: getApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 10:15:19 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 Could not connect
+10/11/2016, 10:15:19 PM - info: getApplicationsForJobseeker in jobapplication service called 
+10/11/2016, 10:15:19 PM - error: getApplicationsForJobseeker passthrough returned error for jobSeekerId : agfhjk5678 statusCode=404, body=Not in system
+10/11/2016, 10:15:19 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 Could not connect
+10/11/2016, 10:15:19 PM - info: getQuestionsForApplication in jobapplication service called 
+10/11/2016, 10:15:19 PM - error: getApplicationsForJobseeker passthrough returned error for application id : 3245 statusCode=404, body=Not in system
+10/11/2016, 10:15:19 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 10:15:19 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: fillAnswersForAnsweredQuestions in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getSeekerFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributeUnion in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : undefined
+10/11/2016, 10:15:19 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - error: findAttributesAndJobCategoryById from jobseekerrepository returned error NotFoundError: no fields found
+    at Context.<anonymous> (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/test/services/jobseekerquestionservice-getunansweredquestions-test.js:102:94)
+    at callFnAsync (/usr/local/lib/node_modules/mocha/lib/runnable.js:309:8)
+    at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:264:7)
+    at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:419:10)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:526:12
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:340:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:350:7
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:283:14)
+    at /usr/local/lib/node_modules/mocha/lib/runner.js:313:7
+    at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:250:5)
+    at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:304:7)
+    at Hook.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:282:7)
+    at next (/usr/local/lib/node_modules/mocha/lib/runner.js:295:10)
+    at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:318:5)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+10/11/2016, 10:15:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getSeekerAttributesAndCategoryFromDb in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributesForCategory in jobseekerquestionsservice  called for jobSeekerId : 123
+10/11/2016, 10:15:19 PM - info: getAttributeDifference in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: getQuestionsForAttributes in jobseekerquestionsservice  called 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 10:15:19 PM - error: register user service returned error statusCode=403, body=This mobile number is taken
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: registeruser in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: saveToDB in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:19 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:19 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:19 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:19 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: deleteUser in jobseekerservice called
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 5742908688b10bdb1bcd1a39
+10/11/2016, 10:15:19 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - info: getJobSeekerByUserId in jobseekerservice called for 12345
+10/11/2016, 10:15:19 PM - error: findByJobSeekerId returned error Not found
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:19 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: updateUser in jobseekerservice called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 12rfghjk
+10/11/2016, 10:15:19 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:19 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:19 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:20 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:20 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:20 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:20 PM - error: failed to delete user from sql when mongodb failed : 12345 statusCode=401, body=undefined
+10/11/2016, 10:15:20 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:20 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:20 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:20 PM - info: validateSchema in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: updateUser in jobseekerservice called for 1234567890
+10/11/2016, 10:15:20 PM - info: getJobSeeker in jobseekerservice  called for 1234567890
+10/11/2016, 10:15:20 PM - info: updateToDB in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: inSave in jobseekerservice called 
+10/11/2016, 10:15:20 PM - info: getBasicAttributes in attributeservice  called 
+10/11/2016, 10:15:20 PM - info: callAttributeService in attribute service called for categoryId : 1000
+10/11/2016, 10:15:20 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 10:15:20 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 10:15:20 PM - info: getQuestions in questionsservice  called 
+10/11/2016, 10:15:20 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 10:15:20 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 10:15:20 PM - error: deleteUser request in userservice returned error for userId :12345 Could not connect
+10/11/2016, 10:15:20 PM - info: deleteUser in userservice called for userid 
+10/11/2016, 10:15:20 PM - error: deleteUser request in userservice returned error for userId :12345 statusCode=404, body=User does not exist
+10/11/2016, 10:15:20 PM - info: registerUser:0.45590099999935774
+10/11/2016, 10:15:20 PM - info: registerUser:0.7877950000001874
+10/11/2016, 10:15:21 PM - info: registerUser:0.4773719999993773
+10/11/2016, 10:15:21 PM - error: update request in userservice returned error for userId :undefined Could not connect
+10/11/2016, 10:15:21 PM - error: update request in userservice returned error for userId :undefined statusCode=403, body=This mobile number is already taken

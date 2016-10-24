@@ -1,0 +1,29 @@
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<WebApplication4.Models.shubham>
+    " %>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Details</title>
+    </head>
+    <body bgcolor="#ffff99">
+        <fieldset>
+            <legend>Fields</legend>
+            <div class="display-label">Email_Id</div>
+            <div class="display-field"><%: Model.Email_Id %></div>
+            <div class="display-label">passward</div>
+            <div class="display-field"><%: Model.passward %></div>
+            <div class="display-label">BirthYear</div>
+            <div class="display-field"><%: Model.BirthYear %></div>
+            <div class="display-label">IndianZipCode</div>
+            <div class="display-field"><%: Model.IndianZipCode %></div>
+            <div class="display-label">Gender</div>
+            <div class="display-field"><%: Model.Gender %></div>
+        </fieldset>
+        <p>
+            <%: Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) %> |
+            <%: Html.ActionLink("Back to List", "Index") %>
+        </p>
+    </body>
+</html>
+
+</WebApplication4.Models.shubham>

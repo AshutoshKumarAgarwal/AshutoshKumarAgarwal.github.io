@@ -1,0 +1,74 @@
+10/21/2016, 2:43:28 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:43:29 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 2:43:37 PM - error: error on decoding token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJxYWFwaS5iYWJham9iLmNvbSIsImV4cCI6MTQ5MjQzNjEwNCwidG9rZW5JZCI6Ijk3YTU5YTk1ZDEyZjRiNzdhNzM4NjY1MjUzNmRiYTk5IiwidXNlcklkIjoiNDA5OTc5OSIsInVzZXJOYW1lIjoiYXNodXRvc2hhQGJhYmFqb2IuY29tIiwicm9sZSI6IkFETUlOIiwicHJvZmlsZUlkIjoiNDA5OTc5OSIsImNvbnN1bWVyS2V5IjoiMmtzUngzZTZUTElOUEtXOGRlM1VmMURjMjg4ZHhTIiwic2NvcGUiOiJBQ0NFU1MifQ.6qYSMd4j9mJlFR60LJrCmrOisCfeSjqUdZqGOcIZrwU, consumer-key:  2ksRx3e6TLINPKW8de3Uf1Dc288dxS, req : /jobseekers/5809dbfffad90e1468ec7413/categories/1000/unansweredquestions?language=en&channel=web, err :  %s JsonWebTokenError: secret or public key must be provided
+    at Object.module.exports [as verify] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/jsonwebtoken/verify.js:54:17)
+    at Object.exports.authenticate.err [as authenticate] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/lib/requestAuthentication.js:31:25)
+    at app.use (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/src/app.js:33:27)
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:271:10)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express-winston/index.js:291:9
+    at Layer.handle [as handle_request] (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:312:13)
+    at /Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/shubhammakwana/Documents/Workspace/job-seeker-api/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+10/21/2016, 2:44:10 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:44:10 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 2:44:16 PM - error:  Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 2:44:16 PM - error: call attribute service in attribute service returned error for categoryId : 1000 { Error: connect ECONNREFUSED 127.0.0.1:9000
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9000 }
+10/21/2016, 6:12:06 PM - error: Rabbitmq errorError: read ETIMEDOUT
+10/21/2016, 6:12:06 PM - error: RabbitMQ Connection closed: Error: read ETIMEDOUT
+10/21/2016, 6:13:23 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:14:40 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:15:57 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+10/21/2016, 6:17:14 PM - error:  Error: connect ETIMEDOUT 10.150.4.232:5672
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
